@@ -10,14 +10,6 @@
 
 Non-English equipment changes are drafts awaiting fluent-speaker review. Help remains in English.
 
-## 0.1.0 — 27 October 2026
-
-- Adapt English interface and email vocabulary from rooms/areas to equipment items/types.
-- Add equipment-specific help and independent installation, upgrade and removal instructions.
-- Preserve upstream vocabulary keys, database identifiers and iCalendar parameter names.
-
-Initial experimental version. Live installation validation is pending; see README.md.
-
 ## 0.2.0 — 27 October 2026
 
 - Replace vocabulary overrides with direct English language file edits.
@@ -26,3 +18,11 @@ Initial experimental version. Live installation validation is pending; see READM
 - Keep the configuration include limited to English selection, email locale and help.
 
 Experimental language-file edition; live installation validation remains pending.
+
+## 0.1.0 — 27 October 2026
+
+- Adapt English interface and email vocabulary from rooms/areas to equipment items/types.
+- Add equipment-specific help and independent installation, upgrade and removal instructions.
+- Preserve upstream vocabulary keys, database identifiers and iCalendar parameter names.
+
+Initial experimental version. Live installation validation is pending; see README.md.
