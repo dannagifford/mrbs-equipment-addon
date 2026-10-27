@@ -1,152 +1,145 @@
 # MRBS Equipment Booking Addon
 
 ## Purpose
-This project adapts the Meeting Room Booking System (MRBS) for booking shared equipment. Areas become equipment types, and rooms become individual equipment items, using MRBS’s existing calendars, booking rules and administration tools. The adaptations are maintained as language-file patches so users can continue receiving upstream MRBS updates.
 
-Equipment terminology for [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code), maintained as a patch to its language files.
+This project adapts the [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code)
+for booking shared equipment. Areas become equipment types, and rooms become
+individual equipment items, using MRBS's existing calendars, booking rules and
+administration tools. The adaptations are maintained as language-file patches so
+users can continue receiving upstream MRBS updates.
 
-| MRBS Terminology|→| MRBS Equipment Addon Terminology|
-|-----------------|-|-----------------------------------------------|
-| Area            |→| Equipment type, e.g. Autoclaves |
-| Room            |→| Equipment item, e.g. Priorclave Benchtop Autoclave |
+| MRBS terminology | → | Equipment add-on terminology |
+| --- | :---: | --- |
+| Area | → | Equipment type, e.g. Autoclaves |
+| Room | → | Equipment item, e.g. Priorclave Benchtop Autoclave |
 
-This add-on directly edits all 33 upstream `web/lang/lang.*` files. It contains
+The add-on directly edits all 33 upstream `web/lang/lang.*` files. It includes
 equipment terminology in English and 32 other language variants, equipment-specific
-help and a small configuration include.
-The include enables browser language selection and chooses the equipment help file;
-it contains no vocabulary overrides.
-The underlying MRBS booking engine and database identifiers retain their upstream names.
+help and a small configuration include. The include enables browser language
+selection and selects the equipment Help page; it contains no vocabulary overrides.
+The MRBS booking engine and database identifiers retain their upstream names.
 
 ## Why?
 
-Equipment booking software can be expensive, unnecessarily complicated, or advertised as free until essential features require a paid upgrade. Systems designed around charging for equipment time also bring billing and account management into what could be a straightforward booking process. Paper booking sheets are difficult to check remotely, can be lost or damaged, and make it harder to prevent conflicting reservations. Digital equipment usage records can demonstrate demand and shared use, providing evidence to support future grant applications for replacement equipment, upgrades or additional capacity.
+Equipment booking software can be expensive, unnecessarily complicated, or
+advertised as free until essential features require a paid upgrade. Systems
+designed around charging for equipment time also bring billing and account
+management into what could be a straightforward booking process. Paper booking
+sheets are difficult to check remotely, can be lost or damaged, and make it harder
+to prevent conflicting reservations. Digital booking records can help demonstrate
+demand and shared use, providing evidence to support future grant applications
+for replacement equipment, upgrades or additional capacity.
 
-This project adapts MRBS for individual laboratories or research groups that need to share equipment: check availability, make reservations and avoid booking conflicts. It provides free, open-source software that groups can host and maintain themselves, without subscriptions or a requirement to charge users for equipment access.
+This project adapts MRBS for individual laboratories or research groups that need
+to share equipment: check availability, make reservations and avoid booking
+conflicts. It provides free, open-source software that groups can host and maintain
+themselves, without subscriptions or a requirement to charge users for equipment access.
 
-## Compatibility
+## Installation
 
-The supplied language files and patch were prepared against upstream commit
-`3aafab399922a422cdb3a0db5886148b7116499a` (27 October 2026).
-This is an experimental edition: PHP execution and live database integration have
-not been tested. No released MRBS version is currently certified as supported.
-The interface follows MRBS's normal browser language selection, with English as
-the fallback. Equipment-related non-English changes are draft translations and
-have not been reviewed by fluent speakers. Unrelated interface text retains the
-existing upstream translations. The equipment Help page remains in English.
-See [TRANSLATIONS.md](TRANSLATIONS.md) for the complete locale list and review status.
+**Follow [INSTRUCTIONS.md](INSTRUCTIONS.md) for the complete setup guide.**
 
-Checks performed for this package: all 33 files were parsed with a PHP syntax
-parser; canonical equipment keys and formatting placeholders were checked; the
-combined patch was applied to the reference source and reproduced every supplied
-language file exactly. These checks do not execute PHP or exercise a live MRBS site.
+The guide describes a new installation on **Ubuntu with Apache and MySQL**, including:
 
-## Install on a Git checkout of MRBS
+1. Installing the required software and downloading the matching MRBS source.
+2. Creating a separate database and configuring standard MRBS.
+3. Deploying MRBS and creating the first administrator account.
+4. Applying the equipment language patch and enabling the add-on.
+5. Checking syntax, committing the adaptations and deploying the changed files.
+6. Adding equipment, checking booking behaviour and maintaining future updates.
 
-Keep this add-on checkout outside your MRBS checkout. In the MRBS repository root,
-with a clean working tree, create a branch for your equipment customisation and
-apply the patch, replacing the example path with this add-on's actual path:
+The guide keeps the checkouts separate:
 
-```sh
-git switch -c equipment-booking
-git apply --check /path/to/mrbs-equipment-booking/mrbs-equipment.patch
-git apply /path/to/mrbs-equipment-booking/mrbs-equipment.patch
-```
+| Location | Purpose |
+| --- | --- |
+| `~/src/mrbs` | MRBS source and the local `equipment-booking` branch |
+| `~/src/mrbs-equipment-booking` | This add-on's patch and supporting files |
+| `/var/www/html/equipment-booking` | Deployed website, containing MRBS's `web/` files |
 
-If the check fails, inspect differences against your installed version. Do not
-replace a different release's language files blindly. On a newer upstream checkout,
-`git apply --3way` may help merge the patch; resolve and review any conflicts.
-
-Copy these two additional files into the corresponding locations in MRBS:
-
-```sh
-cp /path/to/mrbs-equipment-booking/web/equipment-language.inc.php web/
-cp /path/to/mrbs-equipment-booking/web/site_faq/site_faq_equipment.html web/site_faq/
-```
-
-Add this to your existing `web/config.inc.php` before any local settings that should
-take precedence:
+The add-on is enabled by adding this line to MRBS's `web/config.inc.php`, before
+any local settings that should take precedence:
 
 ```php
 require_once __DIR__ . '/equipment-language.inc.php';
 ```
 
-Commit the tracked language and help changes on your equipment branch:
+Keep database credentials in the local configuration. When the source checkout
+and deployed website are separate, copy changes to the deployed site as described
+in the instructions.
 
-```sh
-git add web/lang/lang.* web/equipment-language.inc.php web/site_faq/site_faq_equipment.html
-git commit -m 'Adapt MRBS to equipment booking'
-```
+For an existing MRBS installation, check its version and back up its files and
+database before adapting it. The guide's database creation and initial table
+import are for new installations only.
 
-Keep deployment credentials in your existing local configuration.
+## Compatibility and validation
 
-## Install without Git
+The supplied language files and patch were prepared against upstream commit
+`3aafab399922a422cdb3a0db5886148b7116499a` on 27 October 2026. This is a development
+snapshot. The installation guide selects that commit so the patch matches exactly.
+Compatibility with released MRBS versions has not yet been verified.
 
-For the exact reference commit above, copy the supplied `web/` files over the
-matching files in your installation, then add the configuration include above.
-Back up your existing language files first. For other versions, merge the patch
-against their language files, preserving new upstream entries.
+Checks completed for this package:
 
-## Keep up with MRBS
+- All 33 language files were parsed with a PHP syntax parser.
+- Canonical equipment vocabulary keys and formatting placeholders were checked.
+- The combined patch was applied to the reference source and reproduced every
+  supplied language file exactly.
 
-In your MRBS checkout, add upstream once if needed:
+These checks do not execute PHP or exercise a live MRBS installation. Live PHP,
+database integration and interface testing remain pending. Follow the syntax and
+booking checks in [INSTRUCTIONS.md](INSTRUCTIONS.md) before deployment.
 
-```sh
-git remote add upstream https://github.com/meeting-room-booking-system/mrbs-code.git
-```
+## Languages
 
-For a development installation following upstream main, update your equipment
-branch with:
+The interface follows MRBS's normal browser language selection, with English as
+the fallback. Equipment-related non-English changes are draft translations and
+have not been reviewed by fluent speakers. Unrelated interface text retains the
+existing upstream translations. The equipment Help page remains in English.
 
-```sh
-git fetch upstream
-git switch equipment-booking
-git merge upstream/main
-```
+See [TRANSLATIONS.md](TRANSLATIONS.md) for the locale list and review status.
 
-For production, merge the MRBS release you choose rather than tracking development
-main. Resolve any language conflicts so new upstream strings are retained and
-room/area wording becomes equipment item/type wording. The tracked equipment
-customisation stays in your branch's history. Reapplying the patch after every
-successful merge is unnecessary.
-
-After validating against a newer MRBS version, update this add-on's reference
-commit, full language files and patch together. Keep the patch focused on language
-changes. An upstream update may introduce new terminology keys that also need editing.
-
-## Email language
-
-MRBS controls notification language separately from the browser. The add-on does
-not change the site's email language. Set it in `config.inc.php` if required, for
-example:
+MRBS controls notification language separately from browser language. The add-on
+retains the site's email-language settings. Configure them in `web/config.inc.php`
+if required, for example:
 
 ```php
-$mail_settings['admin_lang'] = 'fr-FR';
+$mail_settings['admin_lang'] = 'en-GB';
 ```
 
 ## Using the equipment model
 
 Administrators create equipment types, then individual physical items within each
-type. Booking type (e.g. Internal/External) remains a separate reservation category.
-Capacity is descriptive information, not a pool of interchangeable stock units.
-Existing names and descriptions in the database are not rewritten.
+type. Each independently bookable item needs its own entry. Equipment type is
+separate from booking type, which describes a reservation category such as
+Internal or External.
 
-## Validate before deployment
+The Capacity field is descriptive information, not a pool of interchangeable
+stock units. Existing equipment names and descriptions stored in the database
+are not rewritten by the patch.
 
-Run syntax checks on every language file and on the configuration include:
+## Keeping up with MRBS
 
-```sh
-for lang_file in web/lang/lang.*; do php -l "$lang_file" || exit 1; done
-php -l web/equipment-language.inc.php
-```
+The installation guide records the equipment adaptations as a commit on a local
+`equipment-booking` branch. Fetch upstream changes from the MRBS checkout's `origin`
+remote and merge the release you choose into that branch. Back up the database
+and configuration, resolve any language conflicts, test the merged installation
+and deploy the updated files. See **Updating MRBS later** in
+[INSTRUCTIONS.md](INSTRUCTIONS.md) for the procedure.
 
-Set the browser language to each locale being reviewed. Compare translated
-equipment messages with English, including booking limits and import errors.
+**Do not reapply the original equipment patch after a successful merge.** The
+equipment adaptations are already recorded in the branch's history. New upstream
+vocabulary keys may still need equipment wording.
 
-Check calendar selectors, equipment administration, bookings, recurring bookings,
-conflicts, reports, emails, iCalendar import/export and Help in staging. Preserve
-format placeholders and protocol labels such as `X-MRBS-USERNAME`.
+Updating this add-on separately also requires reviewing its changes against your
+current MRBS branch. Applying the complete patch a second time to an already
+adapted installation is not the update procedure.
+
+When maintaining a new add-on version, update the reference MRBS commit, supplied
+language files and patch together. Preserve vocabulary keys, formatting placeholders
+and calendar identifiers such as `X-MRBS-USERNAME`.
 
 ## Licence
 
 GPL-2.0-only. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
-Independent adaptation of MRBS, whose authors retain their copyright.
+This is an independent adaptation of MRBS, whose authors and contributors retain
+their copyright.
