@@ -17,6 +17,12 @@ The include enables browser language selection and chooses the equipment help fi
 it contains no vocabulary overrides.
 The underlying MRBS booking engine and database identifiers retain their upstream names.
 
+## Why?
+
+Equipment booking software can be expensive, unnecessarily complicated, or advertised as free until essential features require a paid upgrade. Systems designed around charging for equipment time also bring billing and account management into what could be a straightforward booking process. Paper booking sheets are difficult to check remotely, can be lost or damaged, and make it harder to prevent conflicting reservations. Digital equipment usage records can demonstrate demand and shared use, providing evidence to support future grant applications for replacement equipment, upgrades or additional capacity.
+
+This project adapts MRBS for individual laboratories or research groups that need to share equipment: check availability, make reservations and avoid booking conflicts. It provides free, open-source software that groups can host and maintain themselves, without subscriptions or a requirement to charge users for equipment access.
+
 ## Compatibility
 
 The supplied language files and patch were prepared against upstream commit
