@@ -1,0 +1,263 @@
+<?php // -*-mode: PHP; coding:utf-8;-*-
+// Equipment terminology adapted for this add-on; draft translations need fluent-speaker review.
+
+// This file contains PHP code that specifies language specific strings
+// The default strings come from lang.en, and anything in a locale
+// specific file will overwrite the default. This is a Basque file.
+//
+//
+//
+//
+// This file is PHP code. Treat it as such.
+
+// Used in style.php
+$vocab["mrbs"]               = "Ekipamendua erreserbatzeko sistema";
+
+// Used in functions.php
+$vocab["report"]             = "Txostenak";
+$vocab["admin"]              = "Kudeaketa";
+$vocab["help"]               = "Laguntza";
+$vocab["search"]             = "Bilatu";
+
+// Used in index.php
+$vocab["bookingsfor"]        = "Noiz erreserbatu: ";
+$vocab["bookingsforpost"]    = ""; // Dataren ondoren doa
+$vocab["areas"]              = "Ekipamendu motak";
+$vocab["daybefore"]          = "Aurreko eguna";
+$vocab["dayafter"]           = "Hurrengo eguna";
+$vocab["gototoday"]          = "Gaurko eguna";
+$vocab["goto"]               = "Hona joan";
+$vocab["nav_day"]            = "Day";
+$vocab["nav_week"]           = "Week";
+$vocab["nav_month"]          = "Month";
+$vocab["highlight_line"]     = "Lerro honi lehentasuna eman";
+$vocab["click_to_reserve"]   = "Erreserba egiteko karratutxoan klik egin.";
+$vocab["weekbefore"]         = "Aurreko astera joan";
+$vocab["weekafter"]          = "Hurrengo astera joan";
+$vocab["gotothisweek"]       = "Aste honetara joan";
+$vocab["monthbefore"]        = "Aurreko hilabetera joan";
+$vocab["monthafter"]         = "Hurrengo hilabetera joan";
+$vocab["gotothismonth"]      = "Hilabete honetara joan";
+$vocab["no_rooms_for_area"]  = "Ez dago ekipamendurik definituta mota honetarako";
+
+// Used in trailer.php
+$vocab["viewday"]            = "Eguna ikusi";
+$vocab["viewweek"]           = "Astea ikusi";
+$vocab["viewmonth"]          = "Hilabetea ikusi";
+$vocab["ppreview"]           = "Inprimatzeko aurrebista";
+
+// Used in edit_entry.php
+$vocab["addentry"]           = "Erreserba berria";
+$vocab["editentry"]          = "Erreserba editatu";
+$vocab["editseries"]         = "Segidak editatu";
+$vocab["namebooker"]         = "Deskribapen motza";
+$vocab["fulldescription"]    = "Deskribapen osoa";
+$vocab["date"]               = "Data";
+$vocab["start_date"]         = "Hasiera data";
+$vocab["end_date"]           = "Amaiera data";
+$vocab["time"]               = "Ordua";
+$vocab["period_title"]       = "Periodoa";
+$vocab["duration"]           = "Iraupena";
+$vocab["seconds"]            = "segunduak";
+$vocab["minutes"]            = "minutuak";
+$vocab["hours"]              = "orduak";
+$vocab["days"]               = "egun";
+$vocab["weeks"]              = "asteak";
+$vocab["years"]              = "urteak";
+$vocab["periods"]            = "tarte ordu erdikoak";
+$vocab["all_day"]            = "Egun osorako";
+$vocab["type"]               = "Erreserba mota";
+$vocab["save"]               = "Gorde";
+$vocab["rep_type"]           = "Errepikapen mota";
+$vocab["rep_type_0"]         = "Ezein ez";
+$vocab["rep_type_1"]         = "Egunekoa";
+$vocab["rep_type_2"]         = "Astekoa";
+$vocab["rep_type_3"]         = "Hilekoa";
+$vocab["rep_type_4"]         = "Urtekoa";
+$vocab["rep_end_date"]       = "Errepikapenaren bukaera data";
+$vocab["rep_rep_day"]        = "Errepikapenaren eguna";
+$vocab["ctrl_click"]         = "Erabili Ctrl-klik hainbat ekipamendu-elementu hautatzeko";
+$vocab["entryid"]            = "IDa sartu";
+$vocab["repeat_id"]          = "IDa errepikatu";
+$vocab["brief_description"]  = "Deskribapen laburra.";
+
+// Used in view_entry.php
+$vocab["description"]        = "Deskribapena";
+$vocab["room"]               = "Ekipamendu-elementua";
+$vocab["createdby"]          = "Nork sortua";
+$vocab["lastupdate"]         = "Azken eguneraketa";
+$vocab["deleteentry"]        = "Erreserba ezabatu";
+$vocab["deleteseries"]       = "Segida ezabatu";
+$vocab["confirmdel"]         = "Erreserba hau ezabatu nahi duzula ziur al zaude?";
+$vocab["returnprev"]         = "Aurreko orrira itzuli";
+$vocab["invalid_entry_id"]   = "Invalid entry id.";
+$vocab["invalid_series_id"]  = "Invalid series id.";
+
+// Used in edit_entry_handler.php
+$vocab["error"]              = "Errorea";
+$vocab["sched_conflict"]     = "Planifikazio-gatazka";
+$vocab["conflict"]           = "Erreserba berria beste erreserba hauekin bateraezina da:";
+$vocab["too_many_entries"]   = "Aukeratu duzunak arazoak sortzen ditu.<br>Aukera(k) berriz aztertu, mesedez";
+$vocab["returncal"]          = "Egutegiaren bistara itzuli, mesedez";
+$vocab["failed_to_acquire"]  = "Datubasera sartzeko arazoa";
+
+// Authentication stuff
+$vocab["accessdenied"]       = "Ezin zara sartu";
+$vocab["norights"]           = "Ez duzu baimenik datua aldatzeko.";
+$vocab["please_login"]       = "Mesedez, logea zaitez";
+$vocab["users.name"]          = "Izena";
+$vocab["users.password"]      = "Pasahitza";
+$vocab["unknown_user"]       = "Erabiltzaile ezezaguna";
+$vocab["users.level"]         = "Baimenak";
+$vocab["login"]              = "Sartu";
+$vocab["logoff"]             = "Irten";
+$vocab["username_or_email"]  = "Erabiltzaile-izena edo e-posta helbidea";
+
+// Authentication database
+$vocab["user_list"]          = "Erabiltzaileen zerrenda";
+$vocab["edit_user"]          = "Erabiltzailea editatu";
+$vocab["delete_user"]        = "Erabiltzaile hau ezabatu";
+//$vocab["users.name"]         = Use the same as above, for consistency.
+//$vocab["users.password"]     = Use the same as above, for consistency.
+$vocab["users.email"]         = "Email helbidea";
+$vocab["password_twice"]     = "Pasahitza aldatu nahi baduzu, pasahitz berria bi aldiz idatzi, mesedez";
+$vocab["passwords_not_eq"]   = "Errorea: Pasahitzak ez datoz bat.";
+$vocab["add_new_user"]       = "Erabiltzaile berria erantsi";
+$vocab["action"]             = "Ekintza";
+$vocab["user"]               = "Erabiltzailea";
+$vocab["administrator"]      = "Kudeatzailea";
+$vocab["unknown"]            = "Ezezaguna";
+$vocab["ok"]                 = "Ongi";
+$vocab["show_my_entries"]    = "Nire sarrerak erakusteko klik egin";
+
+// Used in search.php
+$vocab["invalid_search"]     = "Bilaketa-kate hutsa edo desegokia.";
+$vocab["search_results"]     = "Honen emaitzak bilatu:";
+$vocab["nothing_found"]      = "Ez da kointzidentziarik aurkitu.";
+$vocab["records"]            = "Taularen lehen erregistroaren orden-zenbakia: ";
+$vocab["through"]            = " - Orain arte bistaratutako erregistroak:  ";
+$vocab["of"]                 = " - Aurkitutako erregistrok guztira: ";
+$vocab["previous"]           = "Aurrekoa";
+$vocab["next"]               = "Hurrengoa";
+$vocab["entry"]              = "Sarrera";
+$vocab["search_button"]      = "Bilatu";
+$vocab["search_for"]         = "Bilaketa aurreratua";
+$vocab["from"]               = "Noiztik";
+
+// Used in report.php
+$vocab["report_on"]          = "Baliabideen erabilpen-txostena:";
+$vocab["report_start"]       = "Hasiera data";
+$vocab["report_end"]         = "Amaiera data";
+$vocab["match_area"]         = "Ekipamendu mota";
+$vocab["match_room"]         = "Ekipamendu-elementua";
+$vocab["match_type"]         = "Mota aukeratu";
+$vocab["ctrl_click_type"]    = "Mota bat baino gehiago aukeratzeko Kontrol-klik egin";
+$vocab["match_entry"]        = "Deskribapen laburra aurkitu";
+$vocab["match_descr"]        = "Deskribapen osoa aurkitu";
+$vocab["summarize_by"]       = "Honen arabera laburbildu";
+$vocab["sum_by_descrip"]     = "Deskribapen laburra";
+$vocab["sum_by_creator"]     = "Egilea";
+$vocab["entry_found"]        = "aurkitutako erregistroa";
+$vocab["entries_found"]      = "aurkitutako erregistroak";
+$vocab["summary_header"]     = "(Orduen) tarteen laburpena";
+$vocab["summary_header_per"] = "(Orduen) tarteen laburpena";
+$vocab["total"]              = "Guztira";
+$vocab["submitquery"]        = "Bidali";
+$vocab["sort_rep"]           = "Zeren arabera";
+$vocab["sort_rep_time"]      = "Hasiera data/ordua";
+
+// Used in admin.php
+$vocab["edit"]               = "Editatu";
+$vocab["delete"]             = "Ezabatu";
+$vocab["rooms"]              = "Ekipamendua";
+$vocab["in"]                 = "non: ";
+$vocab["noareas"]            = "Ez dago ekipamendu motarik definituta.";
+$vocab["addarea"]            = "Gehitu ekipamendu mota";
+$vocab["name"]               = "Izena";
+$vocab["noarea"]             = "Ez da ekipamendu motarik hautatu";
+$vocab["browserlang"]        = "Zure nabigatzaileak hizkuntza hauek ikusteko ezarpena dauka:";
+$vocab["addroom"]            = "Gehitu ekipamendu-elementua";
+$vocab["capacity"]           = "Edukiera (hala badagokio)";
+$vocab["norooms"]            = "Ez dago ekipamendu-elementurik definituta.";
+$vocab["administration"]     = "Ekipamenduaren xehetasunak";
+
+// Used in edit_area.php and/or edit_room.php
+$vocab["editarea"]           = "Editatu ekipamendu mota";
+$vocab["change"]             = "Aldatu";
+$vocab["editroom"]           = "Editatu ekipamendu-elementua";
+$vocab["not_found"]          = " ez da aurkitu";
+$vocab["room_admin_email"]   = "Jakinarazpenen helbide elektronikoak";
+$vocab["area_admin_email"]   = "Jakinarazpenen helbide elektronikoak";
+$vocab["invalid_email"]      = "Email okerra!";
+
+// Used in del.php
+$vocab["deletefollowing"]    = "Ekintza honek hurrengo agenda(k) ezabatuko d(it)u: ";
+$vocab["sure"]               = "Ziur al zaude?";
+$vocab["YES"]                = "BAI";
+$vocab["NO"]                 = "EZ";
+$vocab["delarea"]            = "Ezabatu mota honetako ekipamendu-elementu guztiak mota ezabatu aurretik.";
+
+// Used in help.php
+$vocab["about_mrbs"]         = "MRBSri buruz";
+$vocab["database"]           = "Datubasea";
+$vocab["system"]             = "Sistema";
+$vocab["please_contact"]     = "Mesedez, harremanetan jarri: %s hemen erantzuten ez den edozein galdera egiteko.";
+
+// Entry types
+$vocab["type.I"]            = "Arrunta";
+$vocab["type.E"]            = "Berezia";
+
+// Equipment terminology for keys missing from this upstream translation.
+$vocab["area"] = "Ekipamendu mota";
+$vocab["area_does_not_exist"] = "Existitzen ez den ekipamendu mota:";
+$vocab["area_room"] = "Ekipamendu mota – Ekipamendu-elementua";
+$vocab["area_room_create"] = "Sortu ekipamendu-elementuak behar izanez gero";
+$vocab["area_room_delimiter_note"] = "Ekipamendu motaren eta elementuaren arteko bereizlea LOCATION propietatean. Bereizlerik gabe, LOCATION balioaren izen bera duen elementu bakarra bilatuko da.";
+$vocab["area_room_order_note"] = "Ekipamendu motaren eta elementuaren izenen ordena LOCATION propietatean";
+$vocab["area_room_settings"] = "Ekipamendu motak eta elementuak";
+$vocab["could_not_create_area"] = "Ezin izan da ekipamendu mota sortu";
+$vocab["could_not_create_room"] = "Ezin izan da ekipamendu-elementua sortu";
+$vocab["could_not_find_room"] = "Ezin izan da ekipamendu-elementua aurkitu";
+$vocab["creating_new_area"] = "Ekipamendu mota sortzen:";
+$vocab["creating_new_room"] = "Ekipamendu-elementua sortzen:";
+$vocab["default_room"] = "Ekipamendu-elementu lehenetsia";
+$vocab["default_room_note"] = "LOCATION propietatea zehazten ez denean erabiliko den ekipamendu-elementua";
+$vocab["default_type"] = "Erreserba mota lehenetsia";
+$vocab["disabled_area_note"] = "Ekipamendu mota hau desgaitzeak erreserba berriak eragozten ditu. Dauden erreserbak bilaketetan eta txostenetan ikusgai egongo dira.";
+$vocab["disabled_room_note"] = "Ekipamendu-elementu hau desgaitzeak erreserba berriak eragozten ditu. Dauden erreserbak bilaketetan eta txostenetan ikusgai egongo dira.";
+$vocab["edit_entry_nonexistent_room"] = "Ekipamendu-elementu hau ez da existitzen. Ireki egutegia beste bat hautatzeko.";
+$vocab["event_created_from_periods"] = "Gertaera aldiak erabiltzen dituen ekipamendu mota batetik esportatu da.";
+$vocab["ignore_location"] = "Erabili ekipamendu-elementu lehenetsia LOCATION ordez";
+$vocab["invalid_area"] = "Ekipamendu mota baliogabea.";
+$vocab["invalid_area_name"] = "Ekipamendu motaren izen hori erabiltzen ari da dagoeneko.";
+$vocab["invalid_room"] = "Ekipamendu-elementu baliogabea.";
+$vocab["invalid_room_name"] = "Ekipamendu-elementuaren izen hori mota honetan erabiltzen ari da dagoeneko.";
+$vocab["invalid_types"] = "Onartzen ez diren erreserba motak";
+$vocab["invalid_types_note"] = "Erreserba mota hauek ez dira onartzen ekipamendu-elementu honetarako.";
+$vocab["max_per_day_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzak izan ditzakeen erreserben gehieneko kopurua eguneko:";
+$vocab["max_per_future_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzak izan ditzakeen erreserben gehieneko kopurua etorkizunean:";
+$vocab["max_per_month_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzak izan ditzakeen erreserben gehieneko kopurua hileko:";
+$vocab["max_per_week_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzak izan ditzakeen erreserben gehieneko kopurua asteko:";
+$vocab["max_per_year_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzak izan ditzakeen erreserben gehieneko kopurua urteko:";
+$vocab["max_secs_per_day_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzaren erreserben gehieneko iraupen osoa eguneko: %1\$s %2\$s";
+$vocab["max_secs_per_future_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzaren erreserben gehieneko iraupen osoa etorkizunean: %1\$s %2\$s";
+$vocab["max_secs_per_month_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzaren erreserben gehieneko iraupen osoa hileko: %1\$s %2\$s";
+$vocab["max_secs_per_week_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzaren erreserben gehieneko iraupen osoa asteko: %1\$s %2\$s";
+$vocab["max_secs_per_year_area"] = "Ekipamendu mota honetarako erabiltzaile bakoitzaren erreserben gehieneko iraupen osoa urteko: %1\$s %2\$s";
+$vocab["mrbs_abbr"] = "EBS";
+$vocab["multiroom_not_allowed"] = "Ezin dituzu hainbat ekipamendu-elementu batera erreserbatu.";
+$vocab["no_rooms_selected"] = "Ekipamendu-elementu bat hautatu behar duzu.";
+$vocab["no_simultaneous_bookings"] = "Gehienez %s ekipamendu-elementu erreserba ditzakezu aldi berean";
+$vocab["no_users_create_first_admin"] = "Sortu administratzaile bat, hasi saioa eta gehitu erabiltzaileak, ekipamendu motak eta ekipamendu-elementuak.";
+$vocab["noareas_enabled"] = "Ez dago ekipamendu motarik gaituta.";
+$vocab["norooms_enabled"] = "Ez dago ekipamendu-elementurik gaituta.";
+$vocab["room_area"] = "Ekipamendu-elementua – Ekipamendu mota";
+$vocab["room_does_not_exist"] = "Existitzen ez den ekipamendu-elementua:";
+$vocab["room_does_not_exist_no_area"] = "Ezin da existitzen ez den elementua gehitu: ez da ekipamendu mota zehaztu";
+$vocab["room_not_unique_no_area"] = "Ekipamendu-elementuaren izena ez da bakarra: zehaztu ekipamendu mota.";
+$vocab["select_area"] = "Hautatu ekipamendu mota";
+$vocab["select_room"] = "Hautatu ekipamendu-elementua";
+$vocab["sort_key_note"] = "Ekipamendua ordenatzeko gakoa";
+$vocab["sort_room"] = "Ekipamendu-elementua";
+$vocab["this_area"] = "Ekipamendu mota hau";
+$vocab["viewroom"] = "Ikusi ekipamendu-elementua";

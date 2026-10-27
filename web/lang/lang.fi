@@ -1,0 +1,486 @@
+<?php // -*-mode: PHP; coding:utf-8;-*-
+// Equipment terminology adapted for this add-on; draft translations need fluent-speaker review.
+
+// This file contains PHP code that specifies language specific strings
+// The default strings come from lang.en, and anything in a locale
+// specific file will overwrite the default. This is the Finnish version.
+//
+// Translation by Vesa Palmu ( vesa.palmu@no... ),
+// 2005 Tom Ingberg (tom.ingberg@iki.fi.invalid)
+//
+// This file is PHP code. Treat it as such.
+
+// Used in style.inc
+$vocab["mrbs"]               = "Laitteiden varausjärjestelmä";
+
+// Used in functions.inc
+$vocab["report"]             = "Raportit";
+$vocab["admin"]              = "Ylläpito";
+$vocab["help"]               = "Ohjeet";
+$vocab["search"]             = "Etsi";
+
+// Used in index.php
+$vocab["bookingsfor"]        = "Varaukset";
+$vocab["bookingsforpost"]    = ""; // Goes after the date
+$vocab["areas"]              = "Laitetyypit";
+$vocab["daybefore"]          = "Edelliseen päivään";
+$vocab["dayafter"]           = "Seuraavaan päivään";
+$vocab["gototoday"]          = "Tähän päivään";
+$vocab["goto"]               = "mene";
+$vocab["nav_day"]            = "Päivä";
+$vocab["nav_week"]           = "Viikko";
+$vocab["nav_month"]          = "Month";
+$vocab["highlight_line"]     = "Korosta tämä rivi";
+$vocab["click_to_reserve"]   = "Napsauta solua tehdäksesi varauksen.";
+$vocab["timezone"]           = "Aikavyöhyke";
+$vocab["weekbefore"]         = "Edelliseen viikkoon";
+$vocab["weekafter"]          = "Seuraavaan viikkoon";
+$vocab["gotothisweek"]       = "Tähän viikkoon";
+$vocab["monthbefore"]        = "Edelliseen kuukauteen";
+$vocab["monthafter"]         = "Seuraavaan kuukauteen";
+$vocab["gotothismonth"]      = "Tähän kuukauteen";
+$vocab["no_rooms_for_area"]  = "Tälle laitetyypille ei ole määritetty laitteita";
+
+// Used in trailer.inc
+$vocab["viewday"]            = "Näytä päivä";
+$vocab["viewweek"]           = "Näytä viikko";
+$vocab["viewmonth"]          = "Näytä kuukausi";
+$vocab["ppreview"]           = "Tulostuksen esikatselu";
+
+// Used in edit_entry.php
+$vocab["addentry"]           = "Lisää varaus";
+$vocab["editentry"]          = "Muokkaa varausta";
+$vocab["copyentry"]          = "Kopioi varaus";
+$vocab["editseries"]         = "Muokkaa varaussarjaa";
+$vocab["copyseries"]         = "Kopioi varaussarja";
+$vocab["namebooker"]         = "Lyhyt kuvaus";
+$vocab["fulldescription"]    = "Täydellinen kuvaus";
+$vocab["date"]               = "Päivämäärä";
+$vocab["start"]              = "Alku";
+$vocab["end"]                = "Loppu";
+$vocab["start_date"]         = "Aloitusaika";
+$vocab["end_date"]           = "Lopetusaika";
+$vocab["time"]               = "Aika";
+$vocab["period_title"]       = "Jakso";
+$vocab["duration"]           = "Kesto";
+$vocab["second"]             = "sekunti";
+$vocab["seconds"]            = "sekuntia";
+$vocab["minute"]             = "minuutti";
+$vocab["minutes"]            = "minuuttia";
+$vocab["hour"]               = "tunti";
+$vocab["hours"]              = "tuntia";
+$vocab["day"]                = "päivä";
+$vocab["days"]               = "päivää";
+$vocab["week"]               = "viikko";
+$vocab["weeks"]              = "viikkoa";
+$vocab["year"]               = "vuosi";
+$vocab["years"]              = "vuotta";
+$vocab["period"]             = "jakso";
+$vocab["periods"]            = "jaksoa";
+$vocab["all_day"]            = "Koko päivän";
+$vocab["area"]               = "Laitetyyppi";
+$vocab["type"]               = "Varaustyyppi";
+$vocab["save"]               = "Tallenna";
+$vocab["rep_type"]           = "Toiston tyyppi";
+$vocab["rep_type_0"]         = "Ei toistoa";
+$vocab["rep_type_1"]         = "Päivittäin";
+$vocab["rep_type_2"]         = "Viikoittain";
+$vocab["rep_type_3"]         = "Kuukausittain";
+$vocab["rep_type_4"]         = "Vuosittain";
+$vocab["rep_end_date"]       = "Toiston loppupäivämäärä";
+$vocab["rep_rep_day"]        = "Toiston viikonpäivä";
+$vocab["rep_for_weekly"]     = "(viikottaiselle toistolle)";
+$vocab["rep_for_nweekly"]    = "(määräaikaiselle viikottaiselle)";
+$vocab["skip_conflicts"]     = "Ohita menneet ristiriidat";
+$vocab["ctrl_click"]         = "Valitse useita laitteita Ctrl-napsautuksella";
+$vocab["entryid"]            = "Varauksen ID ";
+$vocab["repeat_id"]          = "Toiston ID ";
+$vocab["brief_description"]  = "Lyhyt kuvaus";
+$vocab["status"]             = "Tila";
+$vocab["public"]             = "Julkinen";
+$vocab["private"]            = "Yksityinen";
+$vocab["unavailable"]        = "[Yksityinen]";
+$vocab["is_mandatory_field"] = "on pakollinen kenttä.";
+$vocab["missing_mandatory_field"] = "Et ole täyttänyt pakollista kenttää";
+$vocab["confirmed"]          = "Vahvistettu";
+$vocab["start_after_end"]    = "Aloitusaika myöhäisempi kuin loppumisajankohta";
+$vocab["start_after_end_long"] = "Virhe: aloitusajankohta ei voi olla loppumisajankohtaa myöhäisempi.";
+
+// Used in view_entry.php
+$vocab["description"]         = "Kuvaus";
+$vocab["room"]                = "Laite";
+$vocab["createdby"]           = "Varauksen tekijä";
+$vocab["lastupdate"]          = "Päivitetty";
+$vocab["deleteentry"]         = "Poista varaus";
+$vocab["deleteseries"]        = "Poista varaussarja";
+$vocab["exportentry"]         = "Tuo merkintä";
+$vocab["exportseries"]        = "Tuo sarja";
+$vocab["confirmdel"]          = "Oletko varma että haluat poistaa tämän varauksen?";
+$vocab["returnprev"]          = "Takaisin edelliselle sivulle";
+$vocab["invalid_entry_id"]    = "Virheellinen varauksen ID.";
+$vocab["invalid_series_id"]   = "Virheellinen sarjan ID.";
+$vocab["confirmation_status"] = "Vahvistuksen tila";
+$vocab["tentative"]           = "Alustava";
+$vocab["approval_status"]     = "Hyväksymisen tila";
+$vocab["approved"]            = "Hyväksytty";
+$vocab["awaiting_approval"]   = "Odottaa hyväksyntää";
+$vocab["approve"]             = "Hyväksy";
+$vocab["reject"]              = "Hylkää";
+$vocab["more_info"]           = "Lisää tietoja";
+$vocab["remind_admin"]        = "Muistuta ylläpitäjää";
+$vocab["series"]              = "Sarja";
+$vocab["request_more_info"]   = "Määrittele tarvitsemasi lisätiedot";
+$vocab["reject_reason"]       = "Perusteet varauspyynnön hylkäämiselle";
+$vocab["send"]                = "Lähetä";
+$vocab["approve_failed"]      = "Varausta ei voitu hyväksyä";
+$vocab["no_request_yet"]      = "Pyyntöjä ei ole lähetetty"; // Used for the title tooltip on More Info button
+$vocab["last_request"]        = "Last request sent at"; ///TODO        // Used for the title tooltip on More Info button
+$vocab["by"]                  = "by"; ///TODO                          // Used for the title tooltip on More Info button
+$vocab["sent_at"]             = "Sent at "; ///TODO
+$vocab["yes"]                 = "Kyllä";
+$vocab["no"]                  = "Ei";
+
+// Used in edit_entry_handler.php
+$vocab["error"]              = "Virhe";
+$vocab["sched_conflict"]     = "Päällekkäinen varaus";
+$vocab["conflict"]           = "Uusi varaus menee päällekkäin seuraavien varausten kanssa";
+$vocab["no_conflicts"]       = "Ei ristiriitoja varauksissa";
+$vocab["rules_broken"]       = "Uusi varaus on ristiriidassa seuraavien käytäntöjen kanssa";
+$vocab["no_rules_broken"]    = "Ei ristiriitoja varauskäytännöissä";
+$vocab["schedule"]           = "Aikataulu"; //NOTE onko fiksu käännös?
+$vocab["policy"]             = "Käytäntö";
+$vocab["too_many_entries"]   = "Valituilla ehdoilla tulisi liian monta varausta.<br>Valittuja ehtoja on muutettava.";
+$vocab["returncal"]          = "Paluu kalenterinäkymään";
+$vocab["failed_to_acquire"]  = "Tietokantaan ei saatu (varauksetonta) yhteyttä.";
+$vocab["invalid_booking"]    = "Virheellinen varaus";
+$vocab["must_set_description"] = "Varaukselle tulee asettaa kuvaus. Palaa takaisin ja korjaa puutteet.";
+$vocab["mail_subject_approved"]  = "Varaus hyväksytty yrityksen %s EBS-järjestelmässä"; // $mrbs_company
+$vocab["mail_subject_rejected"]  = "Varaus hylätty yrityksen %s EBS-järjestelmässä"; // $mrbs_company
+$vocab["mail_subject_more_info"] = "%s EBS: lisätietoja pyydetty"; // $mrbs_company
+$vocab["mail_subject_reminder"]  = "Muistutus järjestelmässä %s EBS"; // $mrbs_company
+$vocab["mail_body_approved"]     = "Ylläpitäjät ovat hyväksyneet varauksen. Lisätietoja:";
+$vocab["mail_body_rej_entry"]    = "Ylläpitäjät ovat hylänneet varauksen. Lisätietoja:";
+$vocab["mail_body_more_info"]    = "Ylläpitäjät tarvitsevat lisätietoja varauksesta:";
+$vocab["mail_body_reminder"]     = "Muistutus: varaus odottaa hyväksyntää:";
+$vocab["mail_body_repeats_booked"]   = "Seuraavat ajankohdat varattiin:";
+$vocab["mail_body_repeats_deleted"]  = "Seuraavat ajankohdat hylättiin:";
+$vocab["mail_body_exceptions"]       = "Seuraavia ajankohtia ei voitu varata ristiriitojen johdosta:";
+$vocab["mail_subject_new_entry"]     = "Varaus lisätty yritykselle %s EBS-järjestelmässä"; // $mrbs_company
+$vocab["mail_subject_changed_entry"] = "Varaus muutettu yritykselle %s EBS-järjestelmässä"; // $mrbs_company
+$vocab["mail_subject_delete"]        = "Varaus poistettu yritykselle %s EBS-järjestelmässä"; // $mrbs_company
+$vocab["mail_body_new_entry"]     = "Uusi varaus lisätty:";
+$vocab["mail_body_changed_entry"] = "Varauksen tietoja muokattu:";
+$vocab["mail_body_del_entry"]     = "Varaus poistettu:";
+$vocab["new_value"]               = "Uusi";
+$vocab["old_value"]               = "Vanha";
+$vocab["reason"]                  = "Syy";
+$vocab["info_requested"]          = "Pyydetyt tiedot";
+$vocab["min_time_before"]         = "Minimiaika varauksen alkuun on";
+$vocab["max_time_before"]         = "Maksimiaika varauksen loppuun on";
+$vocab["latest_booking_date"]     = "Viimeinen varausajankohta on %s";
+$vocab["max_booking_duration"]    = 'Varauksen maksimikesto on %1$d %2$s';
+$vocab["max_per_day_global"]      = "Maksimimäärä käyttäjäkohtaisia varauksia per päivä on";
+$vocab["max_per_week_global"]     = "Maksimimäärä käyttäjäkohtaisia varauksia per viikko on";
+$vocab["max_per_month_global"]    = "Maksimimäärä käyttäjäkohtaisia varauksia per kuukausi on";
+$vocab["max_per_year_global"]     = "Maksimimäärä käyttäjäkohtaisia varauksia per vuosi on";
+$vocab["max_per_future_global"]   = "Maksimimäärä keskeneräisiä käyttäjäkohtaisia varauksia on";
+$vocab["max_per_day_area"]        = "Varausten enimmäismäärä päivässä käyttäjää kohti tälle laitetyypille:";
+$vocab["max_per_week_area"]       = "Varausten enimmäismäärä viikossa käyttäjää kohti tälle laitetyypille:";
+$vocab["max_per_month_area"]      = "Varausten enimmäismäärä kuukaudessa käyttäjää kohti tälle laitetyypille:";
+$vocab["max_per_year_area"]       = "Varausten enimmäismäärä vuodessa käyttäjää kohti tälle laitetyypille:";
+$vocab["max_per_future_area"]     = "Varausten enimmäismäärä tulevaisuudessa käyttäjää kohti tälle laitetyypille:";
+$vocab["skip_and_book"]           = "Ohita ja varaa";
+$vocab["skip_and_book_note"]      = "Jatka varauksen tallentamiseen ohittaen ristiriidassa olevat varaukset";
+
+// Used in pending.php
+$vocab["pending"]            = "Varaukset odottamassa hyväksyntää";
+$vocab["none_outstanding"]   = "Sinulla ei ole hyväksyntää odottavia varauksia.";
+
+// Authentication stuff
+$vocab["accessdenied"]       = "Pääsy kielletty";
+$vocab["norights"]           = "Sinulla ei ole riittävästi oikeuksia yrittämäsi toiminnon suorittamiseen.";
+$vocab["please_login"]       = "Ole hyvä ja kirjaudu sisään";
+$vocab["users.name"]          = "Käyttäjätunnus";
+$vocab["users.password"]      = "Salasana";
+$vocab["users.level"]         = "Käyttöoikeudet";
+$vocab["unknown_user"]       = "Tuntematon käyttäjä";
+$vocab["login"]              = "Kirjaudu sisään";
+$vocab["logoff"]             = "Kirjaudu ulos";
+$vocab["username_or_email"]  = "Käyttäjänimi tai sähköpostiosoite";
+
+// Database upgrade code
+$vocab["database_login"]           = "Tietokannan tunnus"; //Database login, mitä tarkottanee???
+$vocab["upgrade_required"]         = "Tietokanta tulee päivittää.";
+$vocab["supply_userpass"]          = "Tietokannan ylläpidon käyttäjätunnus ja salasana."; //Please supply a database username and password that has admin rights.
+$vocab["contact_admin"]            = "Mikäli et ole EBS-järjestelmän ylläpitäjä, ota yhteys %s."; // $mrbs_admin
+$vocab["upgrade_to_version"]       = "Päivitetään tietokantaa versioon";
+$vocab["upgrade_to_local_version"] = "Päivitetään tietokantaa paikalliseen versioon";
+$vocab["upgrade_completed"]        = "Tietokannan päivitys valmis.";
+
+// User access levels
+$vocab["level_0"]            = "ei käyttöoikeuksia";
+$vocab["level_1"]            = "käyttäjä";
+$vocab["level_2"]            = "ylläpitäjä";
+$vocab["level_3"]            = "järjestelmänhaltija";//user admin??
+
+// Authentication database
+$vocab["user_list"]          = "Käyttäjälista";
+$vocab["edit_user"]          = "Muokkaa käyttäjää";
+$vocab["delete_user"]        = "Poista tämä käyttäjä";
+//$vocab["users.name"]         = Use the same as above, for consistency.
+//$vocab["users.password"]     = Use the same as above, for consistency.
+$vocab["users.email"]         = "Sähköpostiosoite";
+$vocab["password_twice"]     = "Jos haluat vaihtaa salasanan, ole hyvä ja anna uusi salasana kahdesti";
+$vocab["passwords_not_eq"]   = "Virhe: Salasanat eivät täsmää.";
+$vocab["password_invalid"]   = "Salasana ei täytä sille asetettuja vähimmäisvaatimuksia:";
+$vocab["policy_length"]      = "%d merkkiä";
+$vocab["policy_alpha"]       = "%d kirjainta";
+$vocab["policy_lower"]       = "%d pientä kirjainta";
+$vocab["policy_upper"]       = "%d isoa kirjainta";
+$vocab["policy_numeric"]     = "%d kpl numeroita";
+$vocab["policy_special"]     = "%d kpl erikoismerkkejä";
+$vocab["add_new_user"]       = "Lisää uusi käyttäjä";
+$vocab["action"]             = "Toiminto";
+$vocab["user"]               = "Käyttäjä";
+$vocab["administrator"]      = "Ylläpitäjä";
+$vocab["unknown"]            = "Tuntematon";
+$vocab["ok"]                 = "OK";
+$vocab["show_my_entries"]    = "Näytä tulevat tapahtumat";
+$vocab["no_users_initial"]   = "Ei käyttäjiä tietokannassa, sallitaan ensimmäisten käyttäjien luominen";
+$vocab["no_users_create_first_admin"] = "Luo ylläpitäjä, kirjaudu sisään ja lisää käyttäjiä, laitetyyppejä ja laitteita.";
+$vocab["warning_last_admin"] = "Varoitus! Käyttäjä on viimeinen ylläpito-oikeuksilla varustettu käyttäjä, eikä sitä voida poistaa.";
+
+// Used in search.php
+$vocab["invalid_search"]     = "Tyhjä tai kelpaamaton haku.";
+$vocab["search_results"]     = "Hakutulokset";
+$vocab["nothing_found"]      = "Yhtään varausta ei löytynyt antamillasi ehdoilla. ";
+$vocab["records"]            = "Tulokset ";
+$vocab["through"]            = " - ";
+$vocab["of"]                 = " tuloksia yhteensä: ";
+$vocab["previous"]           = "Edellinen";
+$vocab["next"]               = "Seuraava";
+$vocab["entry"]              = "Varaus";
+$vocab["search_button"]      = "Hae";
+$vocab["search_for"]         = "Etsi";
+$vocab["from"]               = "Alkaen";
+
+// Used in report.php
+$vocab["report_on"]             = "Raportti varauksista";
+$vocab["report_start"]          = "Raportin alkupäivämäärä";
+$vocab["report_end"]            = "Raportin loppupäivämäärä";
+$vocab["match_area"]            = "Laitetyyppi";
+$vocab["match_room"]            = "Laite";
+$vocab["match_type"]            = "Tyyppi";
+$vocab["ctrl_click_type"]       = "Pidä Ctrl-näppäin alaspainettuna valitaksesi useamman tyypin.";
+$vocab["match_entry"]           = "Lyhyt kuvaus";
+$vocab["match_descr"]           = "Täydellinen kuvaus";
+$vocab["output"]                = "Muoto"; ///NOTE
+$vocab["summary"]               = "Yhteenveto";
+$vocab["format"]                = "Tyyppi";
+$vocab["html"]                  = "HTML";
+$vocab["csv"]                   = "CSV";
+$vocab["ical"]                  = "iCalendar (.ics-tiedosto) - poislukien jaksot";
+$vocab["combination_not_supported"] = "Määriteltyä muotoa ei voida viedä valittuun tiedostotyyppiin";///NOTE onko oikea sanavalinta?
+$vocab["summarize_by"]          = "Yhteenvedon peruste";
+$vocab["sum_by_descrip"]        = "Lyhyt kuvaus";
+$vocab["sum_by_creator"]        = "Varaaja";
+$vocab["sum_by_type"]           = "Tyyppi";
+$vocab["entry_found"]           = "varaus löytyi";
+$vocab["entries_found"]         = "varausta löytyi";
+$vocab["summary_header"]        = "Varausten tunnit yhteensä";
+$vocab["summary_header_per"]    = "Yhteenveto varausten aikajaksoista";
+$vocab["summary_header_both"]   = "Varausten tunnit/aikajaksot";
+$vocab["entries"]               = "varaukset";
+$vocab["total"]                 = "Kaikkiaan";
+$vocab["submitquery"]           = "Tee raportti";
+$vocab["sort_rep"]              = "Raporttien lajittelun peruste";
+$vocab["sort_rep_time"]         = "Aloitusaika";
+$vocab["fulldescription_short"] = "Täysi kuvaus";
+$vocab["both"]                  = "Kaikki";
+$vocab["privacy_status"]        = "Yksityisyysasetus";
+$vocab["search_criteria"]       = "Hakumääritteet";
+$vocab["presentation_options"]  = "Tulostusvalinnat";
+$vocab["delete_entries"]        = "Poista varaukset";
+$vocab["delete_entries_warning"] = "VAROITUS! Olet poistamassa kaikkia hakusanan löytyvät " .
+                                   "varaukset. Tämä poistaa varaukset lopullisesti. " .
+                                   "Haluatko varmasti jatkaa?\n\n" .
+                                   "Poistettavien merkintöjen määrä: %s";
+$vocab["delete_entries_failed"] = "Varauksia ei voitu poistaa.";
+
+// Used in admin.php
+$vocab["edit"]               = "Muokkaa";
+$vocab["delete"]             = "Poista";
+$vocab["rooms"]              = "Laitteet";
+$vocab["in"]                 = "tyypissä";
+$vocab["noareas"]            = "Laitetyyppejä ei ole määritetty.";
+$vocab["noareas_enabled"]    = "Laitetyyppejä ei ole otettu käyttöön.";
+$vocab["addarea"]            = "Lisää laitetyyppi";
+$vocab["name"]               = "Nimi";
+$vocab["noarea"]             = "Laitetyyppiä ei ole valittu";
+$vocab["browserlang"]        = "Selaimesi kieliasetus on";
+$vocab["addroom"]            = "Lisää laite";
+$vocab["capacity"]           = "Kapasiteetti (tarvittaessa)";
+$vocab["norooms"]            = "Laitteita ei ole määritetty.";
+$vocab["norooms_enabled"]    = "Laitteita ei ole otettu käyttöön.";
+$vocab["administration"]     = "Laitteen tiedot";
+$vocab["invalid_area_name"]  = "Tämä laitetyypin nimi on jo käytössä.";
+$vocab["empty_name"]         = "Nimi puuttuu!";
+
+// Used in edit_area.php and/or edit_room.php
+$vocab["editarea"]                = "Muokkaa laitetyyppiä";
+$vocab["change"]                  = "Tallenna";
+$vocab["editroom"]                = "Muokkaa laitetta";
+$vocab["viewroom"]                = "Näytä laite";
+$vocab["not_found"]               = " ei löytynyt";
+$vocab["room_admin_email"]        = "Ilmoitusten sähköpostiosoitteet";
+$vocab["area_admin_email"]        = "Ilmoitusten sähköpostiosoitteet";
+$vocab["area_first_slot_start"]   = "Kalenterin alkamisaika";
+$vocab["area_last_slot_start"]    = "Kalenterin päättymisaika";
+$vocab["area_res_mins"]           = "Tarkkuus (minuutteja)";
+$vocab["area_def_duration_mins"]  = "Oletuskesto (minuutteja)";
+$vocab["invalid_area"]            = "Virheellinen laitetyyppi.";
+$vocab["invalid_room_name"]       = "Tämä laitteen nimi on jo käytössä tässä laitetyypissä.";
+$vocab["invalid_email"]           = "Virheellinen sähköpostiosoite!";
+$vocab["invalid_resolution"]      = "Virheellinen alkamisajankohta, päättymisajankohta ja tarkkuus!";
+$vocab["general_settings"]        = "Yleiset";
+$vocab["time_settings"]           = "Aikavälit";
+$vocab["confirmation_settings"]   = "Vahvistusasetukset";
+$vocab["allow_confirmation"]      = "Salli alustavat varaukset";
+$vocab["default_settings_conf"]   = "Oletusasetukset";
+$vocab["default_confirmed"]       = "Vahvistettu";
+$vocab["default_tentative"]       = "Alustava";
+$vocab["approval_settings"]       = "Hyväksymisasetukset";
+$vocab["enable_approval"]         = "Edellytä varauksien hyväksyntä";
+$vocab["enable_reminders"]        = "Salli käyttäjien muistuttaa ylläpitäjiä";
+$vocab["private_settings"]        = "Yksityinen varaus";
+$vocab["allow_private"]           = "Salli yksityiset varaukset";
+$vocab["force_private"]           = "Aseta varaukset yksityisiksi";
+$vocab["default_settings"]        = "Oletusarvo";
+$vocab["default_private"]         = "Yksityinen";
+$vocab["default_public"]          = "Julkinen";
+$vocab["private_display"]         = "Yksityiset varaukset (näyttö)";
+$vocab["private_display_label"]   = "Miten yksityiset varaukset näytetään?";
+$vocab["private_display_caution"] = "VAROITUS: mieti tarkkaan yksityisten varausten seurauksia ennen kuin muutat asetuksia!";
+$vocab["treat_respect"]           = "Noudata varauksen julkisuusasetuksia";
+$vocab["treat_private"]           = "Näytä varaukset yksityisinä riippumatta julkisuusasetuksista";
+$vocab["treat_public"]            = "Näytä varaukset julkisina riippumatta julkisuusasetuksista";
+$vocab["sort_key"]                = "Lajitteluperuste";
+$vocab["sort_key_note"]           = "Laitteiden lajitteluavain";
+$vocab["booking_policies"]        = "Varaussäännöt";
+$vocab["min_book_ahead"]          = "Etukäteen varaus - minimi";
+$vocab["max_book_ahead"]          = "Etukäteen varaus - maksimi";
+$vocab["this_area"]               = "Tämä laitetyyppi";
+$vocab["whole_system"]            = "Koko järjestelmä";
+$vocab["whole_system_note"]       = "Koko järjestelmää koskevat asetukset määritellään asetustiedostossa";
+$vocab["max_per_day"]             = "Maksimimäärä päivässä";
+$vocab["max_per_week"]            = "Maksimimäärä viikossa";
+$vocab["max_per_month"]           = "Maksimimäärä kuukaudessa";
+$vocab["max_per_year"]            = "Maksimimäärä vuodessa";
+$vocab["max_per_future"]          = "Maksimimäärä tulevaisuudessa";
+$vocab["custom_html"]             = "Oma HTML";
+$vocab["custom_html_note"]        = "Tätä kenttää voidaan hyödyntää oman HTML-koodin hyödyntämiseen, esimerkiksi Google maps kartan sisällyttämiseen sivulle.";
+$vocab["email_list_note"]         = "Kirjaa sähköpostiosoitteet eroiteltuna pilkulla tai rivinvaihdoilla";
+$vocab["mode"]                    = "Tila";
+$vocab["mode_periods"]            = "Aikajakso";
+$vocab["mode_times"]              = "Ajankohdat"; ///NOTE onko oikein?
+$vocab["times_only"]              = "Ainoastaan ajankohtavalinta"; ///NOTE onko oikein?
+$vocab["enabled"]                 = "Käytössä";
+$vocab["disabled"]                = "Ei käytössä";
+$vocab["disabled_area_note"]      = "Tämän laitetyypin poistaminen käytöstä estää uudet varaukset. Nykyiset varaukset näkyvät edelleen hauissa ja raporteissa.";
+$vocab["disabled_room_note"]      = "Tämän laitteen poistaminen käytöstä estää uudet varaukset. Nykyiset varaukset näkyvät edelleen hauissa ja raporteissa.";
+$vocab["book_ahead_note_periods"] = "Käytettäessä aikajaksoja varaukset pyöristetään lähimpiin kokonaisiin päiviin.";
+
+// Used in edit_users.php
+$vocab["name_empty"]         = "Merkinnän nimeä ei määritelty.";
+$vocab["name_not_unique"]    = "on jo käytössä. Valitse toinen nimi.";
+
+// Used in del.php
+$vocab["deletefollowing"]    = "Seuraavat varaukset poistetaan";
+$vocab["sure"]               = "Oletko varma?";
+$vocab["YES"]                = "KYLLÄ";
+$vocab["NO"]                 = "EN";
+$vocab["delarea"]            = "Poista kaikki tämän tyypin laitteet ennen laitetyypin poistamista.";
+
+// Used in help.php
+$vocab["about_mrbs"]         = "Tietoja varausjärjestelmästä";
+$vocab["database"]           = "Tietokanta";
+$vocab["system"]             = "Käyttöjärjestelmä";
+$vocab["servertime"]         = "Palvelimen aika";
+$vocab["please_contact"]     = "Järjestelmän yhteyshenkilö %s antaa lisätietoja mikäli et löydä vastausta kysymykseesi näistä ohjeista.";
+
+// Used in import.php
+$vocab["import_icalendar"]            = "Tuo iCalendar-tiedosto";
+$vocab["area_room_settings"]          = "Laitetyypit ja laitteet";
+$vocab["other_settings"]              = "Muut asetukset";
+$vocab["import_intro"]                = "Tämän lomakkeen avulla voit tuoda RFC 5545 yhteensopivan " .
+                                        "iCalendar-tiedoston EBS-järjestelmään. Toistuvista varauksista vain  " .
+                                        "ne joiden toistuvuussäännöille löytyy vastineet " .
+                                        "EBS-järjestelmästä tuodaan järjestelmään.";
+$vocab["file_name"]                   = "Tiedosto";
+$vocab["import"]                      = "Tuo";
+$vocab["upload_failed"]               = "Tiedoston lähetys epäonnistui";
+$vocab["max_allowed_file_size"]       = "Tiedoston maksimikoko on %s";
+$vocab["no_file"]                     = "Ei lähetettyä tiedostoa";
+$vocab["badly_formed_ics"]            = "Tunnistamaton VCALENDAR-tiedoston muoto";
+$vocab["area_room_order"]             = "Järjestys";
+$vocab["area_room_order_note"]        = "Laitetyypin ja laitteen nimien järjestys LOCATION-ominaisuudessa";
+$vocab["area_room"]                   = "Laitetyyppi – Laite";
+$vocab["room_area"]                   = "Laite – Laitetyyppi";
+$vocab["area_room_delimiter"]         = "Rajamerkki";
+$vocab["area_room_delimiter_note"]    = "Laitetyypin ja laitteen nimien erotin LOCATION-arvossa. Ilman erotinta etsitään yksilöllistä laitetta, jonka nimi vastaa LOCATION-arvoa.";
+$vocab["area_room_create"]            = "Luo laitteet tarvittaessa";
+$vocab["default_type"]                = "Oletusvaraustyyppi";
+$vocab["room_does_not_exist_no_area"] = "Puuttuvaa laitetta ei voi lisätä: laitetyyppiä ei ole määritetty";
+$vocab["room_not_unique_no_area"]     = "Laitteen nimi ei ole yksilöllinen: määritä laitetyyppi.";
+$vocab["area_does_not_exist"]         = "Laitetyyppiä ei ole:";
+$vocab["room_does_not_exist"]         = "Laitetta ei ole:";
+$vocab["creating_new_area"]           = "Luodaan laitetyyppiä:";
+$vocab["creating_new_room"]           = "Luodaan laitetta:";
+$vocab["could_not_create_area"]       = "Laitetyyppiä ei voitu luoda";
+$vocab["could_not_create_room"]       = "Laitetta ei voitu luoda";
+$vocab["could_not_find_room"]         = "Laitetta ei löytynyt";
+$vocab["could_not_import"]            = "Tietojen tuonti epäonnistui";
+$vocab["no_LOCATION"]                 = "VEVENT ei sisältänyt LOCATION arvoa";
+$vocab["invalid_RRULE"]               = "Virheellinen RRULE: FREQ puuttuu";
+$vocab["more_than_one_BYDAY"]         = "EBS ei tue useampaa BYDAY arvoa kun FREQ=";
+$vocab["negative_BYDAY"]              = "MRBS ei tue negatiivisia BYDAY arvoja";
+$vocab["BYDAY_equals_5"]              = "EBS ei tue BYDAY arvoa 5";
+$vocab["unsupported_FREQ"]            = "EBS ei tue arvoa FREQ=";
+$vocab["unsupported_COUNT"]           = "EBS ei tue arvoa COUNT";
+$vocab["no_indefinite_repeats"]       = "EBS ei tue rajoittamattomia toistoja";
+$vocab["events_imported"]             = "varaukset tuotu"; //NOTE onko oikea
+$vocab["events_not_imported"]         = "tuomatta jääneet varaukset"; //NOTE onko oikea
+
+// Used in DataTables
+$vocab["show_hide_columns"]  = "Näytä / piilota sarakkeet";
+$vocab["restore_original"]   = "Palauta alkuperäinen";
+
+// Entry types
+$vocab["type.I"]             = "Sisäinen";
+$vocab["type.E"]             = "Ulkoinen";
+
+// General
+$vocab["fatal_db_error"]     = "Virhe: tietokanta ei ole käytettävissä.";
+$vocab["back"]               = "Takaisin";
+
+// Equipment terminology for keys missing from this upstream translation.
+$vocab["default_room"] = "Oletuslaite";
+$vocab["default_room_note"] = "Laite, jota käytetään, jos LOCATION-ominaisuutta ei ole määritetty";
+$vocab["edit_entry_nonexistent_room"] = "Tätä laitetta ei enää ole. Valitse toinen laite kalenterista.";
+$vocab["event_created_from_periods"] = "Tapahtuma vietiin laitetyypistä, joka käyttää jaksoja.";
+$vocab["ignore_location"] = "Käytä oletuslaitetta LOCATION-arvon sijaan";
+$vocab["invalid_room"] = "Virheellinen laite.";
+$vocab["invalid_types"] = "Kielletyt varaustyypit";
+$vocab["invalid_types_note"] = "Näitä varaustyyppejä ei sallita tälle laitteelle.";
+$vocab["max_secs_per_day_area"] = "Varausten yhteenlaskettu enimmäiskesto päivässä käyttäjää kohti tälle laitetyypille: %1\$s %2\$s";
+$vocab["max_secs_per_future_area"] = "Varausten yhteenlaskettu enimmäiskesto tulevaisuudessa käyttäjää kohti tälle laitetyypille: %1\$s %2\$s";
+$vocab["max_secs_per_month_area"] = "Varausten yhteenlaskettu enimmäiskesto kuukaudessa käyttäjää kohti tälle laitetyypille: %1\$s %2\$s";
+$vocab["max_secs_per_week_area"] = "Varausten yhteenlaskettu enimmäiskesto viikossa käyttäjää kohti tälle laitetyypille: %1\$s %2\$s";
+$vocab["max_secs_per_year_area"] = "Varausten yhteenlaskettu enimmäiskesto vuodessa käyttäjää kohti tälle laitetyypille: %1\$s %2\$s";
+$vocab["mrbs_abbr"] = "EBS";
+$vocab["multiroom_not_allowed"] = "Et saa varata useita laitteita samalla kertaa.";
+$vocab["no_rooms_selected"] = "Sinun on valittava laite.";
+$vocab["no_simultaneous_bookings"] = "Voit varata enintään %s laitetta samanaikaisesti";
+$vocab["select_area"] = "Valitse laitetyyppi";
+$vocab["select_room"] = "Valitse laite";
+$vocab["sort_room"] = "Laite";

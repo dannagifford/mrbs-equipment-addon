@@ -1,0 +1,530 @@
+<?php // -*-mode: PHP; coding:utf-8;-*-
+// Equipment terminology adapted for this add-on; draft translations need fluent-speaker review.
+
+// This file contains PHP code that specifies language specific strings
+// The default strings come from lang.en, and anything in a locale
+// specific file will overwrite the default. This is a Romanian file.
+//
+// Translations provided by: Mihai Andreana
+//
+//
+// This file is PHP code. Treat it as such.
+
+// Used in style.inc
+$vocab["mrbs"]               = "Sistem de rezervare a echipamentelor";
+
+// Used in functions.inc
+$vocab["report"]             = "Raport";
+$vocab["admin"]              = "Admin";
+$vocab["help"]               = "Ajutor";
+$vocab["search"]             = "Cautare";
+$vocab["outstanding"]        = "Rezervari in asteptare";
+
+// Used in index.php
+$vocab["bookingsfor"]        = "Rezervari pentru";
+$vocab["bookingsforpost"]    = ""; // Goes after the date
+$vocab["areas"]              = "Tipuri de echipamente";
+$vocab["daybefore"]          = "Ziua precedenta";
+$vocab["dayafter"]           = "Ziua urmatoare";
+$vocab["gototoday"]          = "Astazi";
+$vocab["goto"]               = "Afiseaza";
+$vocab["nav_day"]            = "Zi";
+$vocab["nav_week"]           = "Saptamana";
+$vocab["nav_month"]          = "Luna";
+$vocab["highlight_line"]     = "Evidentiaza aceasta linie";
+$vocab["click_to_reserve"]   = "Apasa pe casuta pentru rezervare";
+$vocab["timezone"]           = "Fus orar";
+$vocab["weekbefore"]         = "Mergi La Saptamana Trecuta";
+$vocab["weekafter"]          = "Mergi La Saptamana Viitoare";
+$vocab["gotothisweek"]       = "Mergi La Saptamana Curenta";
+$vocab["monthbefore"]        = "Mergi La Luna Trecuta";
+$vocab["monthafter"]         = "Mergi La Luna Viitoare";
+$vocab["gotothismonth"]      = "Mergi La Luna Curenta";
+$vocab["no_rooms_for_area"]  = "Nu sunt definite echipamente pentru acest tip";
+
+// Used in trailer.inc
+$vocab["viewday"]            = "Vezi ziua";
+$vocab["viewweek"]           = "Vezi saptamana";
+$vocab["viewmonth"]          = "Vezi luna";
+$vocab["ppreview"]           = "Printeaza previzualizare";
+
+// Used in edit_entry.php
+$vocab["addentry"]           = "Adauga rezervare";
+$vocab["editentry"]          = "Modifica rezervare";
+$vocab["copyentry"]          = "Copiaza rezervare";
+$vocab["editseries"]         = "Modifica periodicitatea";
+$vocab["copyseries"]         = "Copiaza periodicitatea";
+$vocab["namebooker"]         = "Descriere sumara";
+$vocab["fulldescription"]    = "Descriere completa";
+$vocab["date"]               = "Data";
+$vocab["start"]              = "Inceput";
+$vocab["end"]                = "Sfarsit";
+$vocab["start_date"]         = "Data de inceput";
+$vocab["end_date"]           = "Data de sfarsit";
+$vocab["time"]               = "Perioada";
+$vocab["period_title"]       = "Perioada";
+$vocab["duration"]           = "Durata";
+$vocab["second"]             = "Secunda";
+$vocab["seconds"]            = "Secunde";
+$vocab["minute"]             = "minut";
+$vocab["minutes"]            = "minute";
+$vocab["hour"]               = "ora";
+$vocab["hours"]              = "ore";
+$vocab["day"]                = "zi";
+$vocab["days"]               = "zile";
+$vocab["week"]               = "saptamana";
+$vocab["weeks"]              = "saptamani";
+$vocab["year"]               = "an";
+$vocab["years"]              = "ani";
+$vocab["period"]             = "perioada";
+$vocab["periods"]            = "perioade";
+$vocab["all_day"]            = "Toata ziua";
+$vocab["area"]               = "Tip de echipament";
+$vocab["type"]               = "Tip de rezervare";
+$vocab["save"]               = "Salvare";
+$vocab["rep_type"]           = "Tip de repetare";
+$vocab["rep_type_0"]         = "Niciunul";
+$vocab["rep_type_1"]         = "Zilnic";
+$vocab["rep_type_2"]         = "Saptamanal";
+$vocab["rep_type_3"]         = "Lunar";
+$vocab["rep_type_4"]         = "Anual";
+$vocab["ord_1"]              = "prima";
+$vocab["ord_2"]              = "a 2-a";
+$vocab["ord_3"]              = "a 3-a";
+$vocab["ord_4"]              = "a 4-a";
+$vocab["ord_5"]              = "a 5-a";
+$vocab["ord_-1"]             = "ultima";
+$vocab["ord_-2"]             = "penultima";
+$vocab["ord_-3"]             = "antepenultima";
+$vocab["ord_-4"]             = "a 4-a de la sfarsit";
+$vocab["ord_-5"]             = "a 5-a de la sfarsit";
+$vocab["rep_end_date"]       = "Repeta ultima data";
+$vocab["rep_rep_day"]        = "Repeta zi";
+$vocab["rep_interval"]       = "Repeta fiecare";
+$vocab["month_absolute"]     = "In ziua";
+$vocab["month_relative"]     = "In";
+$vocab["skip_conflicts"]     = "Ignora conflicte";
+$vocab["no_mail"]            = "Nu trimite email";
+$vocab["ctrl_click"]         = "Folosiți Ctrl-clic pentru a selecta mai multe echipamente";
+$vocab["entryid"]            = "ID rezervare ";
+$vocab["repeat_id"]          = "ID repetare ";
+$vocab["brief_description"]  = "Descriere sumara.";
+$vocab["status"]             = "Status";
+$vocab["public"]             = "Public";
+$vocab["private"]            = "Privat";
+$vocab["unavailable"]        = "[Indisponibil]";
+$vocab["is_mandatory_field"] = "Este un camp obligatoriu, introduceti o valoare";
+$vocab["missing_mandatory_field"] = "Nu ati introdus o valoare pentru campul obligatoriu";
+$vocab["confirmed"]          = "Confirmat";
+$vocab["start_after_end"]    = "Ziua de inceput dupa ziua de sfarsit";
+$vocab["start_after_end_long"] = "Eroare: ziua de inceput nu poate fi dupa ziua de sfarsit.";
+
+// Used in view_entry.php
+$vocab["description"]         = "Descriere";
+$vocab["room"]                = "Echipament";
+$vocab["createdby"]           = "Creat de";
+$vocab["modifiedby"]          = "Modificat de";
+$vocab["lastupdate"]          = "Ultima actualizare";
+$vocab["repeat_on"]           = "Zi repetare";
+$vocab["deleteentry"]         = "Sterge rezervarea";
+$vocab["deleteseries"]        = "Sterge perioadele";
+$vocab["exportentry"]         = "Exporta rezervare";
+$vocab["exportseries"]        = "Exporta perioade";
+$vocab["confirmdel"]          = "Sigur vreti sa stergeti rezervarea?";
+$vocab["returnprev"]          = "Pagina precedenta";
+$vocab["invalid_entry_id"]    = "ID rezervare invalid";
+$vocab["invalid_series_id"]   = "ID perioade invalid";
+$vocab["confirmation_status"] = "Status confirmare";
+$vocab["tentative"]           = "Tentativa";
+$vocab["approval_status"]     = "Status aprobare";
+$vocab["approved"]            = "Aprobat";
+$vocab["awaiting_approval"]   = "Aprobare in asteptare";
+$vocab["approve"]             = "Aproba";
+$vocab["reject"]              = "Respinge";
+$vocab["more_info"]           = "Mai multe detalii";
+$vocab["remind_admin"]        = "Aminteste Admin";
+$vocab["series"]              = "Serii";
+$vocab["request_more_info"]   = "Scrie informatiile suplimentare necesare";
+$vocab["reject_reason"]       = "Scrie un motiv pentru aceasta respingere";
+$vocab["send"]                = "Trimite";
+$vocab["approve_failed"]      = "Rezervarea nu a putut fi aprobata";
+$vocab["no_request_yet"]      = "Nicio cerere trimisa inca"; // Used for the title tooltip on More Info button
+$vocab["last_request"]        = "Ultima cerere vazuta la";         // Used for the title tooltip on More Info button
+$vocab["by"]                  = "de";                           // Used for the title tooltip on More Info button
+$vocab["sent_at"]             = "Trimisa la ";
+$vocab["yes"]                 = "Da";
+$vocab["no"]                  = "Nu";
+
+// Used in edit_entry_handler.php
+$vocab["error"]                  = "Eroare";
+$vocab["sched_conflict"]         = "Conflict intre rezervari";
+$vocab["conflict"]               = "Noua rezervare va intra in conflict cu urmatoarele:";
+$vocab["no_conflicts"]           = "Niciun conflict";
+$vocab["rules_broken"]           = "Noua rezervare va intra in conflict cu urmatoarele reguli:";
+$vocab["rules_broken_notices"]   = "Noua rezervare va intra in conflict cu urmatoarele:";
+$vocab["no_rules_broken"]        = "Niciun conflict";
+$vocab["schedule"]               = "Calendar";
+$vocab["policy"]                 = "Regula";
+$vocab["too_many_entries"]       = "Optiunile selectate vor crea prea multe rezervari. Alegeti alte optiuni!";
+$vocab["returncal"]              = "Intoarcere la calendar";
+$vocab["failed_to_acquire"]      = "Accesare exclusiv al bazei de date nereusit";
+$vocab["invalid_booking"]        = "Rezervare invalida";
+$vocab["must_set_description"]   = "Te rugam sa te duci inapoi pentru a adauga o scurta descriere a rezervarii ";
+$vocab["no_rooms_selected"]      = "Trebuie să selectați un echipament.";
+$vocab["mail_subject_approved"]  = "Rezervare aprobata pentru %s EBS"; // $mrbs_company
+$vocab["mail_subject_rejected"]  = "Rezervare respinsa pentru %s EBS"; // $mrbs_company
+$vocab["mail_subject_more_info"] = "%s EBS: mai multe detalii cerute"; // $mrbs_company
+$vocab["mail_subject_reminder"]  = "Amintire pentru %s EBS"; // $mrbs_company
+$vocab["mail_body_approved"]     = "O rezervare a fost aprobata de administrator; aici sunt detaliile:";
+$vocab["mail_body_rej_entry"]    = "O rezervare a fost respinsa de administrator; aici sunt detaliile:";
+$vocab["mail_body_more_info"]    = "Administratorul are nevoie de mai multe informatii despre o rezervare; aici sunt detaliile:";
+$vocab["mail_body_reminder"]     = "Amintire - o rezervare asteapta aprobare; aici sunt detaliile:";
+$vocab["mail_body_repeats_booked"]   = "Urmatoarele date au fost rezervate";
+$vocab["mail_body_repeats_deleted"]  = "Urmatoarele rezervari au fost sterse:";
+$vocab["mail_body_exceptions"]       = "Urmatoarele date nu au putut fi rezervate datorita conflictelor:";
+$vocab["mail_subject_new_entry"]     = "Intrare adaugata pentru %s EBS"; // $mrbs_company
+$vocab["mail_subject_changed_entry"] = "Intrare schimbata pentru %s EBS"; // $mrbs_company
+$vocab["mail_subject_delete"]        = "Intrare stearsa pentru %s EBS"; // $mrbs_company
+$vocab["mail_body_new_entry"]     = "O noua intrare a fost rezervata, aici sunt detaliile:";
+$vocab["mail_body_changed_entry"] = "O noua intrare a fost modificata, aici sunt detaliile:";
+$vocab["mail_body_del_entry"]     = "O noua intrare a fost stearsa, aici sunt detaliile:";
+$vocab["new_value"]               = "Noua";
+$vocab["old_value"]               = "Veche";
+$vocab["reason"]                  = "Motiv";
+$vocab["info_requested"]          = "Informatii cerute";
+$vocab["min_create_time_before"]  = 'Nu poti face o rezervare care incepe in mai putin de %1$d %2$s';
+$vocab["max_create_time_before"]  = 'Nu poti face o rezervare care se incheie in mai mult de %1$d %2$s';
+$vocab["min_delete_time_before"]  = 'Nu poti modifica sau sterge o rezervare care incepe in mai putin de %1$d %2$s';
+$vocab["max_delete_time_before"]  = 'Nu poti modifica sau sterge o rezervare care se incheie in mai mult de %1$d %2$s';
+$vocab["earliest_booking_date"]   = "Cea mai devreme data de rezervare este %s";
+$vocab["latest_booking_date"]     = "Ultima data de rezervare este %s";
+$vocab["max_booking_duration"]    = 'Durata maxima a unei rezervari este %1$d %2$s';
+$vocab["max_per_day_global"]      = "Numarul maxim de rezervari pe zi pe utilizator pe intreg sistemul este";
+$vocab["max_per_week_global"]     = "Numarul maxim de rezervari pe saptamana pe utilizator pe intreg sistemul este";
+$vocab["max_per_month_global"]    = "Numarul maxim de rezervari pe luna pe utilizator pe intreg sistemul este";
+$vocab["max_per_year_global"]     = "Numarul maxim de rezervari pe an pe utilizator pe intreg sistemul este";
+$vocab["max_per_future_global"]   = "Numarul maxim de rezervari restante pe client pe intregul sistem este";
+$vocab["max_per_day_area"]        = "Numărul maxim de rezervări pe zi per utilizator pentru acest tip de echipament:";
+$vocab["max_per_week_area"]       = "Numărul maxim de rezervări pe săptămână per utilizator pentru acest tip de echipament:";
+$vocab["max_per_month_area"]      = "Numărul maxim de rezervări pe lună per utilizator pentru acest tip de echipament:";
+$vocab["max_per_year_area"]       = "Numărul maxim de rezervări pe an per utilizator pentru acest tip de echipament:";
+$vocab["max_per_future_area"]     = "Numărul maxim de rezervări viitoare per utilizator pentru acest tip de echipament:";
+$vocab["skip_and_book"]           = "Ignora si rezerva";
+$vocab["skip_and_book_note"]      = "Continua rezervarile, ignorand conflictele";
+
+// Used in pending.php
+$vocab["pending"]            = "Rezervari asteptand raspuns";
+$vocab["none_outstanding"]   = "Nu ai nicio rezervare care asteapta aprobare";
+
+// Authentication stuff
+$vocab["accessdenied"]       = "Acces refuzat";
+$vocab["norights"]           = "Nu ai drepturile necesare pentru a vedea aceasta pagina";
+$vocab["please_login"]       = "Te rugam sa te autentifici";
+$vocab["users.name"]         = "Nume";
+$vocab["users.password"]     = "Parola";
+$vocab["users.level"]        = "Drepturi";
+$vocab["users.timestamp"]    = "Ultima actualizare";
+$vocab["unknown_user"]       = "Utilizator necunoscut";
+$vocab["login"]              = "Autentificare";
+$vocab["logoff"]             = "Deconectare";
+$vocab["username_or_email"]  = "Nume sau adresa de email";
+
+// Database upgrade code
+$vocab["database_login"]           = "Autentificare in baza de date";
+$vocab["upgrade_required"]         = "Baza de date trebuie actualizata.  Te rugam sa faci o copie a bazei de date inainte de a continua";
+$vocab["supply_userpass"]          = "Introdu un nume de utilizator pentru baza de date si o parola cu drepturi de admin.";
+$vocab["contact_admin"]            = "Daca nu esti administrator EBS, contacteaza %s."; // $mrbs_admin
+$vocab["upgrade_to_version"]       = "Actualizare la versiunea";
+$vocab["upgrade_to_local_version"] = "Actualizare la versiunea locala";
+$vocab["upgrade_completed"]        = "Actualizare a bazei de date completa";
+
+// User access levels
+$vocab["level_0"]            = "none";
+$vocab["level_1"]            = "user";
+$vocab["level_2"]            = "admin";
+$vocab["level_3"]            = "user admin";
+
+// Authentication database
+$vocab["user_list"]          = "Lista utilizatori";
+$vocab["edit_user"]          = "Modifica utilizator";
+$vocab["delete_user"]        = "Sterge acest utilizator";
+//$vocab["users.name"]         = Use the same as above, for consistency.
+//$vocab["users.password"]     = Use the same as above, for consistency.
+$vocab["users.email"]        = "Adresa de email";
+$vocab["password_twice"]     = "Pentru schimbare parola, scrie noua parola de doua ori";
+$vocab["passwords_not_eq"]   = "Parolele nu corespund!";
+$vocab["password_invalid"]   = "Parola nu respecta regulile. Trebuie sa contina cel putin:";
+$vocab["policy_length"]      = "%d caractere";
+$vocab["policy_alpha"]       = "%d litere";
+$vocab["policy_lower"]       = "%d litere mici";
+$vocab["policy_upper"]       = "%d litere mari";
+$vocab["policy_numeric"]     = "%d caractere numerice";
+$vocab["policy_special"]     = "%d caractere speciale";
+$vocab["add_new_user"]       = "Adauga utilizator nou";
+$vocab["action"]             = "Actiune";
+$vocab["user"]               = "Utilizator";
+$vocab["administrator"]      = "Administrator";
+$vocab["unknown"]            = "Necunoscut";
+$vocab["ok"]                 = "OK";
+$vocab["show_my_entries"]    = "Click pentru a vedea rezervarile viitoare";
+$vocab["no_users_initial"]   = "Niciun utilizator in baza de date, creare utilizator initial";
+$vocab["no_users_create_first_admin"] = "Creați un administrator, autentificați-vă și adăugați utilizatori, tipuri de echipamente și echipamente.";
+$vocab["warning_last_admin"] = "Atentie!  Acesta este ultimul administrator, deci nu poate fi sters, altfel vei fi blocat in sistem";
+
+// Used in search.php
+$vocab["invalid_search"]     = "String de cautare invalid";
+$vocab["search_results"]     = "Rezultate cautare pentru";
+$vocab["nothing_found"]      = "Niciun rezultat gasit.";
+$vocab["records"]            = "Intrari ";
+$vocab["through"]            = "prin ";
+$vocab["of"]                 = "a ";
+$vocab["previous"]           = "Precedenta";
+$vocab["next"]               = "Urmatoare";
+$vocab["entry"]              = "Rezervare";
+$vocab["search_button"]      = "Cautare";
+$vocab["search_for"]         = "Cautare pentru";
+$vocab["from"]               = "De la";
+
+// Used in report.php
+$vocab["report_on"]             = "Raport rezervari";
+$vocab["report_start"]          = "Raport data de inceput";
+$vocab["report_end"]            = "Raport data de sfarsit";
+$vocab["match_area"]            = "Tip de echipament";
+$vocab["match_room"]            = "Echipament";
+$vocab["match_type"]            = "Fixeaza tipul";
+$vocab["ctrl_click_type"]       = "Control-Click pentru a selecta mai multe tipuri";
+$vocab["match_entry"]           = "Fixeaza descriere sumara";
+$vocab["match_descr"]           = "Fixeaza descriere completa";
+$vocab["output"]                = "Rezultat";
+$vocab["summary"]               = "Sumar";
+$vocab["format"]                = "Format";
+$vocab["html"]                  = "HTML";
+$vocab["csv"]                   = "CSV";
+$vocab["ical"]                  = "iCalendar (file .ics file) - exclude punctuatia";
+$vocab["combination_not_supported"] = "Rezultatul nu este suportat de acest format";
+$vocab["summarize_by"]          = "Sumarizeaza dupa";
+$vocab["sum_by_descrip"]        = "Descriere sumara";
+$vocab["sum_by_creator"]        = "Creator";
+$vocab["sum_by_type"]           = "Tip";
+$vocab["entry_found"]           = "Rezervare gasita";
+$vocab["entries_found"]         = "Rezervari gasite";
+$vocab["summary_header"]        = "Sumar(Rezervari) Ore";
+$vocab["summary_header_per"]    = "Sumar(Rezervari) Perioade";
+$vocab["summary_header_both"]   = "Sumar(Rezervari) Ore/Perioade";
+$vocab["entries"]               = "intrari";
+$vocab["total"]                 = "Total";
+$vocab["submitquery"]           = "Afiseaza raport";
+$vocab["sort_rep"]              = "Sortare raport dupa";
+$vocab["sort_rep_time"]         = "Data de inceput";
+$vocab["sort_room"]             = "Echipament";
+$vocab["fulldescription_short"] = "Descriere completa";
+$vocab["both"]                  = "Toate";
+$vocab["with"]                  = "Cu";
+$vocab["without"]               = "Fara";
+$vocab["privacy_status"]        = "Status confidentialitate";
+$vocab["search_criteria"]       = "Criterii de cautare";
+$vocab["presentation_options"]  = "Optiuni rezultate";
+$vocab["delete_entries"]        = "Sterge rezervari";
+$vocab["delete_entries_warning"] = "ATENTIE!  Se vor sterge toate rezervarile continand" .
+                                   "string de cautare.  Operatia nu poate fi reversibila.  Esti " .
+                                   "sigur ca vrei sa continui?\n\n" .
+                                   "Numar total de rezervari ce vor fi sterse: %s";
+$vocab["delete_entries_failed"] = "Rezervarile nu au putut fi sterse.";
+
+// Used in admin.php
+$vocab["edit"]               = "Modificare";
+$vocab["delete"]             = "Stergere";
+$vocab["rooms"]              = "Echipamente";
+$vocab["in"]                 = "in";
+$vocab["noareas"]            = "Nu sunt definite tipuri de echipamente.";
+$vocab["noareas_enabled"]    = "Nu sunt activate tipuri de echipamente.";
+$vocab["addarea"]            = "Adăugați un tip de echipament";
+$vocab["name"]               = "Nume";
+$vocab["noarea"]             = "Niciun tip de echipament selectat";
+$vocab["browserlang"]        = "Browserul este setat cu urmatoarele preferinte lingvistice";
+$vocab["addroom"]            = "Adăugați un echipament";
+$vocab["capacity"]           = "Capacitate (dacă este cazul)";
+$vocab["norooms"]            = "Nu sunt definite echipamente.";
+$vocab["norooms_enabled"]    = "Nu sunt activate echipamente.";
+$vocab["administration"]     = "Detaliile echipamentului";
+$vocab["invalid_area_name"]  = "Acest nume de tip de echipament este deja utilizat.";
+$vocab["empty_name"]         = "Nu ai introdus un nume!";
+
+// Used in edit_area.php and/or edit_room.php
+$vocab["editarea"]                = "Editați tipul de echipament";
+$vocab["change"]                  = "Modificare";
+$vocab["editroom"]                = "Editați echipamentul";
+$vocab["viewroom"]                = "Vizualizați echipamentul";
+$vocab["not_found"]               = " nu a fost gasita";
+$vocab["room_admin_email"]        = "Adrese de email pentru notificări";
+$vocab["area_admin_email"]        = "Adrese de email pentru notificări";
+$vocab["area_first_slot_start"]   = "Incepere primul slot";
+$vocab["area_last_slot_start"]    = "Incepere ultimul slot";
+$vocab["area_res_mins"]           = "Rezolutie (minute)";
+$vocab["area_def_duration_mins"]  = "Durata implicita (minute)";
+$vocab["invalid_area"]            = "Tip de echipament nevalid.";
+$vocab["invalid_room_name"]       = "Acest nume de echipament este deja utilizat în cadrul acestui tip.";
+$vocab["invalid_email"]           = "Adresa de email invalida!";
+$vocab["invalid_resolution"]      = "Combinatie de primul slot, ultimul slot si resolutie, invalida!";
+$vocab["general_settings"]        = "General";
+$vocab["time_settings"]           = "Perioade Slor";
+$vocab["period_settings"]         = "Nume Perioada";
+$vocab["add_period"]              = "Adauga perioada";
+$vocab["confirmation_settings"]   = "Setari confirmare";
+$vocab["allow_confirmation"]      = "Permite tentative de rezervare";
+$vocab["default_settings_conf"]   = "Setari initiale";
+$vocab["default_confirmed"]       = "Confirmat";
+$vocab["default_tentative"]       = "Tentativa";
+$vocab["approval_settings"]       = "Setari aprobare";
+$vocab["enable_approval"]         = "Necesita aprobarea rezervarilor";
+$vocab["enable_reminders"]        = "Permite utilizatorilor sa notifice administratorul";
+$vocab["private_settings"]        = "Setari de confidentialitate";
+$vocab["allow_private"]           = "Permite rezervari private";
+$vocab["force_private"]           = "Forteaza rezervari private";
+$vocab["default_settings"]        = "Setari implicite/fortate";
+$vocab["default_private"]         = "Privat";
+$vocab["default_public"]          = "Public";
+$vocab["private_display"]         = "Setari confidentialitate(sfisare)";
+$vocab["private_display_label"]   = "Cum ar trebui sa fie afisate rezervarile private?";
+$vocab["private_display_caution"] = "Atentie: gandeste-te bine la consecinte inainte de a modifica aceste setari!";
+$vocab["treat_respect"]           = "Respecta setarile de confidentialitate ale rezervarii";
+$vocab["treat_private"]           = "Trateaza toate rezervarile ca private,ignorand setarile de confidentialitate";
+$vocab["treat_public"]            = "Trateaza toate rezervarile ca publice,ignorand setarile de confidentialitate";
+$vocab["sort_key"]                = "Cheie de sortare";
+$vocab["sort_key_note"]           = "Cheia de sortare a echipamentelor";
+$vocab["booking_policies"]        = "Reguli rezervare";
+$vocab["booking_creation"]        = "Creare rezervare";
+$vocab["booking_deletion"]        = "Stergere rezervare";
+$vocab["booking_limits"]          = "Limita numar de rezervari";
+$vocab["booking_durations"]       = "Limita durata rezervari";
+$vocab["max_duration"]            = "Durata maxima";
+$vocab["min_book_ahead"]          = "Rezervare in avans - minim";
+$vocab["max_book_ahead"]          = "Rezervare in avans - maxim";
+$vocab["this_area"]               = "Acest tip de echipament";
+$vocab["whole_system"]            = "Tot sistemul";
+$vocab["whole_system_note"]       = "Valorile pentru tot sistemul sunt setate in fisierul config";
+$vocab["max_per_day"]             = "Numar maxim pe zi";
+$vocab["max_per_week"]            = "Numar maxim pe saptamana";
+$vocab["max_per_month"]           = "Numar maxim pe luna";
+$vocab["max_per_year"]            = "Numar maxim pe an";
+$vocab["max_per_future"]          = "Numar maxim in viitor";
+$vocab["custom_html"]             = "HTML personalizat";
+$vocab["custom_html_note"]        = "Acest camp poate fi folosit pentru afisarea propriului HTML, de exemplu un Google map integrat";
+$vocab["email_list_note"]         = "Introdu o lista de adrese de email separate de virgula sau linie noua";
+$vocab["mode"]                    = "Mod";
+$vocab["mode_periods"]            = "Perioade";
+$vocab["mode_times"]              = "Ore";
+$vocab["times_only"]              = "Mod numai ore";
+$vocab["enabled"]                 = "Activat";
+$vocab["disabled"]                = "Dezactivat";
+$vocab["disabled_area_note"]      = "Dezactivarea acestui tip de echipament împiedică rezervările noi. Rezervările existente rămân vizibile în căutări și rapoarte.";
+$vocab["disabled_room_note"]      = "Dezactivarea acestui echipament împiedică rezervările noi. Rezervările existente rămân vizibile în căutări și rapoarte.";
+$vocab["book_ahead_note_periods"] = "La folosirea perioadelor,rezervarile inaintea timpului sunt rotunjite prin reducere la cea mai apropiata zi intreaga.";
+
+// Used in edit_users.php
+$vocab["name_empty"]         = "Trebuie sa introduci un nume.";
+$vocab["name_not_unique"]    = "deja exista.  Alege altul.";
+
+// Used in del.php
+$vocab["deletefollowing"]    = "Urmatoarele rezervari vor fi sterse";
+$vocab["sure"]               = "Esti sigur?";
+$vocab["YES"]                = "DA";
+$vocab["NO"]                 = "NU";
+$vocab["delarea"]            = "Ștergeți toate echipamentele de acest tip înainte de a-l șterge.";
+
+// Used in help.php
+$vocab["about_mrbs"]         = "Despre EBS";
+$vocab["mrbs_version"]       = "Versiune MRBS";
+$vocab["config_details"]     = "Detalii configurare";
+$vocab["server_details"]     = "Detalii server";
+$vocab["database"]           = "Baza de date";
+$vocab["system"]             = "System";
+$vocab["servertime"]         = "Timp server";
+$vocab["server_software"]    = "Software server";
+$vocab["please_contact"]     = "Contacteaza %s pentru orice intrebare fara raspuns aici.";
+
+// Used in import.php
+$vocab["import_icalendar"]            = "Importa un fisier iCalendar";
+$vocab["area_room_settings"]          = "Tipuri de echipamente și echipamente";
+$vocab["other_settings"]              = "Alte setari";
+$vocab["import_intro"]                = "Aceasta forma iti permite sa importi un RFC 5545 " .
+                                        "fisier iCalendar in EBS.  Doar acele evenimente repetitive " .
+                                        "care au o regula de repetare cu o repetare echivalenta tip in " .
+                                        "EBS vor fi importate.";
+$vocab["supported_file_types"]        = "Urmatoarele tipuri de fisiere sunt suportate:";
+$vocab["import_text_file"]            = "fisiere iCalendar nearhivate";
+$vocab["import_zip"]                  = "arhive zip, continand fisiere multiple intr-o arhiva";
+$vocab["import_gzip"]                 = "fisiere gzip";
+$vocab["import_bzip2"]                = "fisiere bzip2";
+$vocab["file_name"]                   = "Fisier";
+$vocab["import"]                      = "Importa";
+$vocab["upload_failed"]               = "Incarcare esuata";
+$vocab["max_allowed_file_size"]       = "Dimensiunea maxima permisa este %s";
+$vocab["no_file"]                     = "Niciun fisier nu a fost incarcat";
+$vocab["could_not_process"]           = "Import esuat: nu s-a putut procesa fisierul";
+$vocab["badly_formed_ics"]            = "Fisier VCALENDAR format incorect";
+$vocab["default_room"]                = "Echipament implicit";
+$vocab["default_room_note"]           = "Echipamentul utilizat dacă nu este specificată proprietatea LOCATION";
+$vocab["area_room_order"]             = "Ordine";
+$vocab["area_room_order_note"]        = "Ordinea numelor tipului de echipament și echipamentului în LOCATION";
+$vocab["area_room"]                   = "Tip de echipament – Echipament";
+$vocab["room_area"]                   = "Echipament – Tip de echipament";
+$vocab["area_room_delimiter"]         = "Delimitare";
+$vocab["area_room_delimiter_note"]    = "Separatorul dintre tipul de echipament și echipament în LOCATION. Fără separator, se caută un echipament unic cu același nume ca LOCATION.";
+$vocab["area_room_create"]            = "Creați echipamente dacă este necesar";
+$vocab["default_type"]                = "Tip de rezervare implicit";
+$vocab["room_does_not_exist_no_area"] = "Echipamentul inexistent nu poate fi adăugat: tipul de echipament nu este specificat";
+$vocab["room_not_unique_no_area"]     = "Numele echipamentului este ambiguu: specificați tipul de echipament.";
+$vocab["area_does_not_exist"]         = "Tip de echipament inexistent:";
+$vocab["room_does_not_exist"]         = "Echipament inexistent:";
+$vocab["creating_new_area"]           = "Se creează tipul de echipament:";
+$vocab["creating_new_room"]           = "Se creează echipamentul:";
+$vocab["could_not_create_area"]       = "Nu s-a putut crea tipul de echipament";
+$vocab["could_not_create_room"]       = "Nu s-a putut crea echipamentul";
+$vocab["could_not_find_room"]         = "Nu s-a putut găsi echipamentul";
+$vocab["could_not_import"]            = "Nu s-a putut importa";
+$vocab["no_LOCATION"]                 = "VEVENT nu a inclus o proprietate LOCATIE";
+$vocab["invalid_RRULE"]               = "Regula invalida: partea FREQ lipsete";
+$vocab["more_than_one_BYDAY"]         = "EBS nu suporta mai mult de o valoare DUPA ZI cand FREQ=";
+$vocab["BYDAY_equals_5"]              = "EBS nu suporta o valoare DUPA ZI de 5";
+$vocab["unsupported_FREQ"]            = "EBS nu suporta FREQ=";
+$vocab["unsupported_COUNT"]           = "COUNT nu este suportat inca de EBS";
+$vocab["no_indefinite_repeats"]       = "Repetari nedefinite nesuportate inca de EBS";
+$vocab["events_imported"]             = "evenimente importate";
+$vocab["events_not_imported"]         = "evenimente neimportate";
+
+// Used in DataTables
+$vocab["show_hide_columns"]  = "Arata / ascunde coloane";
+$vocab["restore_original"]   = "Revenire la original";
+
+// Entry types
+$vocab["type."]             = "Selecteaza un tip";
+$vocab["type.I"]            = "Intern";
+$vocab["type.E"]            = "Extern";
+
+// General
+$vocab["fatal_error"]        = "Whoops!  Din nefericire EBS a intampinat o eroare fatala.  Te rugam sa consulti administratorul sistemului";
+$vocab["fatal_db_error"]     = "Eroare fatala: din nefericire baza de date nu este disponibila momentan.";
+$vocab["fatal_no_tables"]    = "Eroare fatala: tabelele EBS nu exista sau nu pot fi accesate";
+$vocab["back"]               = "Inapoi";
+
+// Days
+$vocab["Monday"] = "Luni";
+
+// Equipment terminology for keys missing from this upstream translation.
+$vocab["edit_entry_nonexistent_room"] = "Acest echipament nu mai există. Deschideți calendarul pentru a selecta alt echipament.";
+$vocab["event_created_from_periods"] = "Evenimentul a fost exportat dintr-un tip de echipament care folosește perioade.";
+$vocab["ignore_location"] = "Utilizați echipamentul implicit în loc de LOCATION";
+$vocab["invalid_room"] = "Echipament nevalid.";
+$vocab["invalid_types"] = "Tipuri de rezervare nepermise";
+$vocab["invalid_types_note"] = "Aceste tipuri de rezervare nu sunt permise pentru acest echipament.";
+$vocab["max_secs_per_day_area"] = "Durata totală maximă a rezervărilor pe zi per utilizator pentru acest tip de echipament: %1\$s %2\$s";
+$vocab["max_secs_per_future_area"] = "Durata totală maximă a rezervărilor viitoare per utilizator pentru acest tip de echipament: %1\$s %2\$s";
+$vocab["max_secs_per_month_area"] = "Durata totală maximă a rezervărilor pe lună per utilizator pentru acest tip de echipament: %1\$s %2\$s";
+$vocab["max_secs_per_week_area"] = "Durata totală maximă a rezervărilor pe săptămână per utilizator pentru acest tip de echipament: %1\$s %2\$s";
+$vocab["max_secs_per_year_area"] = "Durata totală maximă a rezervărilor pe an per utilizator pentru acest tip de echipament: %1\$s %2\$s";
+$vocab["mrbs_abbr"] = "EBS";
+$vocab["multiroom_not_allowed"] = "Nu aveți voie să rezervați mai multe echipamente simultan.";
+$vocab["no_simultaneous_bookings"] = "Nu puteți rezerva mai mult de %s echipamente simultan";
+$vocab["select_area"] = "Selectați tipul de echipament";
+$vocab["select_room"] = "Selectați echipamentul";

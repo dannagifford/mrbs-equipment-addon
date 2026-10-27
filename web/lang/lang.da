@@ -1,0 +1,270 @@
+<?php // -*-mode: PHP; coding:utf-8;-*-
+// Equipment terminology adapted for this add-on; draft translations need fluent-speaker review.
+
+// This file contains PHP code that specifies language specific strings
+// The default strings come from lang.en, and anything in a locale
+// specific file will overwrite the default. This is the Danish file.
+//
+// Translations provided by: Claes Bolvig Pedersen (cp@dhi.dk) and
+// Søren O'Neill (soren@oneill.dk)
+//
+//
+// This file is PHP code. Treat it as such.
+
+// Used in style.inc
+$vocab["mrbs"]               = "System til udstyrsreservation";
+
+// Used in functions.inc
+$vocab["report"]             = "Rapport";
+$vocab["admin"]              = "Admin";
+$vocab["help"]               = "Hjælp";
+$vocab["search"]             = "Søg";
+
+// Used in index.php
+$vocab["bookingsfor"]        = "Reservation for";
+$vocab["bookingsforpost"]    = "";
+$vocab["areas"]              = "Udstyrstyper";
+$vocab["now_day"]            = "I dag";
+$vocab["now_week"]           = "I dag";
+$vocab["now_month"]          = "I dag";
+$vocab["now_year"]           = "I dag";
+$vocab["daybefore"]          = "Gå til forrige dag";
+$vocab["dayafter"]           = "Gå til næste dag";
+$vocab["gototoday"]          = "Gå til idag";
+$vocab["goto"]               = "gå til";
+$vocab["nav_day"]            = "Dag";
+$vocab["nav_week"]           = "Uge";
+$vocab["nav_month"]          = "Måned";
+$vocab["highlight_line"]     = "fremhæv denne linie";
+$vocab["click_to_reserve"]   = "Klik på cellen for at lave en reservation.";
+$vocab["weekbefore"]         = "Gå til ugen før";
+$vocab["weekafter"]          = "Gå til ugen efter";
+$vocab["gotothisweek"]       = "Gå til denne uge";
+$vocab["monthbefore"]        = "Gå til forrige måned";
+$vocab["monthafter"]         = "Gå til næste måned";
+$vocab["gotothismonth"]      = "Gå til denne måned";
+$vocab["no_rooms_for_area"]  = "Der er ikke oprettet udstyr for denne udstyrstype";
+
+// Used in trailer.inc
+$vocab["viewday"]            = "Vis dag";
+$vocab["viewweek"]           = "Vis Uge";
+$vocab["viewmonth"]          = "Vis Måned";
+$vocab["ppreview"]           = "Forhåndsvisning";
+
+// Used in edit_entry.php
+$vocab["addentry"]           = "Reservation";
+$vocab["editentry"]          = "Ændre reservation";
+$vocab["editseries"]         = "Ændre reservations-serie";
+$vocab["namebooker"]         = "Kort beskrivelse";
+$vocab["fulldescription"]    = "Lang beskrivelse";
+$vocab["date"]               = "Dato";
+$vocab["start_date"]         = "Start-tid";
+$vocab["end_date"]           = "Slut-tid";
+$vocab["time"]               = "Tid";
+$vocab["duration"]           = "Længde";
+$vocab["period_title"]       = "Period";
+$vocab["seconds"]            = "sekunder";
+$vocab["minutes"]            = "minutter";
+$vocab["hours"]              = "timer";
+$vocab["days"]               = "dage";
+$vocab["weeks"]              = "uger";
+$vocab["years"]              = "år";
+$vocab["period"]             = "period";
+$vocab["periods"]            = "perioder";
+$vocab["all_day"]            = "hele dagen";
+$vocab["type"]               = "Reservationstype";
+$vocab["save"]               = "Gem";
+$vocab["rep_type"]           = "Repetitions type";
+$vocab["rep_type_0"]         = "ingen";
+$vocab["rep_type_1"]         = "daglig";
+$vocab["rep_type_2"]         = "ugentlig";
+$vocab["rep_type_3"]         = "månedlig";
+$vocab["rep_type_4"]         = "årlig";
+$vocab["rep_end_date"]       = "Repetitions slut-dato";
+$vocab["rep_rep_day"]        = "Repetitions dag";
+$vocab["ctrl_click"]         = "Brug Ctrl-klik for at vælge flere udstyrsenheder";
+$vocab["entryid"]            = "Reservations ID ";
+$vocab["repeat_id"]          = "Serie ID ";
+$vocab["brief_description"]  = "Kort beskrivelse.";
+
+// Used in view_entry.php
+$vocab["description"]        = "Beskrivelse";
+$vocab["room"]               = "Udstyrsenhed";
+$vocab["createdby"]          = "Gemt af";
+$vocab["lastupdate"]         = "Senest opdateret";
+$vocab["deleteentry"]        = "Slet reservation";
+$vocab["deleteseries"]       = "Slet serie";
+$vocab["confirmdel"]         = "Er du sikker på at du vil slette reservationen?";
+$vocab["returnprev"]         = "Tilbage til forrige side";
+$vocab["invalid_entry_id"]   = "Ugyldigt reservations ID.";
+$vocab["invalid_series_id"]  = "Ugyldigt reservations-serie ID.";
+
+// Used in edit_entry_handler.php
+$vocab["error"]              = "Fejl";
+$vocab["sched_conflict"]     = "Konflikt i reservation";
+$vocab["conflict"]           = "Reservationen er i konflikt med følgende reservation(er)";
+$vocab["too_many_entries"]   = "De valgte instillinger skaber for mange reservationer.<br>Brug venligst andre indstillinger!";
+$vocab["returncal"]          = "Tilbage til kalenderen";
+$vocab["failed_to_acquire"]  = "Kunne ikke få (eksklusiv) database adgang";
+$vocab["cannot_change_approved_bookings"] = "Du kan ikke slette eller redigere reservationer, som er godkendt";
+
+// Authentication stuff
+$vocab["accessdenied"]       = "Ingen adgang";
+$vocab["norights"]           = "Du har ingen rettighed til at ændre reservationen.";
+$vocab["please_login"]       = "Log venligst ind";
+$vocab["users.name"]          = "Navn";
+$vocab["users.password"]      = "Kodeord";
+$vocab["users.level"]         = "Rettigheder";
+$vocab["unknown_user"]       = "Ukendt bruger";
+$vocab["login"]              = "Log ind";
+$vocab["logoff"]             = "Log ud";
+$vocab["username_or_email"]  = "Brugernavn eller e-mailadresse";
+
+// Authentication database
+$vocab["user_list"]          = "Bruger liste";
+$vocab["edit_user"]          = "Rediger bruger";
+$vocab["delete_user"]        = "Slet denne bruger";
+//$vocab["users.name"]         = Use the same as above, for consistency.
+//$vocab["users.password"]     = Use the same as above, for consistency.
+$vocab["users.email"]         = "Email adresse";
+$vocab["password_twice"]     = "Hvis du vil ændre kodeordet, skal du indtaste det nye kodeord to gange";
+$vocab["passwords_not_eq"]   = "Fejl: kodeordene er ikke ens";
+$vocab["add_new_user"]       = "Tilføj en ny bruger";
+$vocab["action"]             = "Handling";
+$vocab["user"]               = "Bruger";
+$vocab["administrator"]      = "Administrator";
+$vocab["unknown"]            = "Ukendt";
+$vocab["ok"]                 = "OK";
+$vocab["show_my_entries"]    = "Klik for at vise alle kommende reservationer";
+
+// Used in search.php
+$vocab["invalid_search"]     = "Tom eller ugyldig søgestreng.";
+$vocab["search_results"]     = "Søgeresultat for";
+$vocab["nothing_found"]      = "Ingen poster blev fundet.";
+$vocab["records"]            = "Reservation ";
+$vocab["through"]            = " til ";
+$vocab["of"]                 = " af ";
+$vocab["previous"]           = "Forrige";
+$vocab["next"]               = "Næste";
+$vocab["entry"]              = "Post";
+$vocab["search_button"]      = "Søg";
+$vocab["search_for"]         = "Søg efter";
+$vocab["from"]               = "Fra";
+
+// Used in report.php
+$vocab["report_on"]          = "Rapport";
+$vocab["report_start"]       = "Start dato";
+$vocab["report_end"]         = "Slut dato";
+$vocab["match_area"]         = "Udstyrstype";
+$vocab["match_room"]         = "Udstyrsenhed";
+$vocab["match_type"]         = "Match type";
+$vocab["ctrl_click_type"]    = "Brug Ctrl-Klik for at vælge mere end en type";
+$vocab["match_entry"]        = "Kort beskrivelse";
+$vocab["match_descr"]        = "Lang beskrivelse";
+$vocab["summarize_by"]       = "Opsummering efter";
+$vocab["sum_by_descrip"]     = "Kort beskrivelse";
+$vocab["sum_by_creator"]     = "Hvem der har reserveret";
+$vocab["entry_found"]        = "post fundet";
+$vocab["entries_found"]      = "poster fundet";
+$vocab["summary_header"]     = "Oversigt timeforbrug";
+$vocab["summary_header_per"] = "Oversigt over (reservationer) perioder";
+$vocab["total"]              = "Total";
+$vocab["submitquery"]        = "Kør rapport";
+$vocab["sort_rep"]           = "Sorter rapport efter";
+$vocab["sort_rep_time"]      = "Start dato/tid";
+
+// Used in admin.php
+$vocab["edit"]               = "Ændre";
+$vocab["delete"]             = "Slet";
+$vocab["rooms"]              = "Udstyr";
+$vocab["in"]                 = "i";
+$vocab["noareas"]            = "Der er ikke oprettet nogen udstyrstyper.";
+$vocab["addarea"]            = "Tilføj udstyrstype";
+$vocab["name"]               = "Navn";
+$vocab["noarea"]             = "Ingen udstyrstype valgt";
+$vocab["browserlang"]        = "Din browser er indstillet til at bruge følgende sprog";
+$vocab["addroom"]            = "Tilføj udstyrsenhed";
+$vocab["capacity"]           = "Kapacitet (hvis relevant)";
+$vocab["norooms"]            = "Der er ikke oprettet nogen udstyrsenheder.";
+$vocab["administration"]     = "Udstyrsoplysninger";
+
+// Used in edit_area.php and/or edit_room.php
+$vocab["editarea"]           = "Rediger udstyrstype";
+$vocab["change"]             = "Ændre";
+$vocab["editroom"]           = "Rediger udstyrsenhed";
+$vocab["not_found"]          = " ikke fundet";
+$vocab["room_admin_email"]   = "E-mailadresser til beskeder";
+$vocab["area_admin_email"]   = "E-mailadresser til beskeder";
+$vocab["invalid_email"]      = "Ugyldig email!";
+
+// Used in del.php
+$vocab["deletefollowing"]    = "Dette vil slette følgende bookninger";
+$vocab["sure"]               = "Er du sikker?";
+$vocab["YES"]                = "JA";
+$vocab["NO"]                 = "NEJ";
+$vocab["delarea"]            = "Slet alle udstyrsenheder af denne type, før du sletter typen.";
+
+// Used in help.php
+$vocab["about_mrbs"]         = "Om EBS";
+$vocab["database"]           = "Database";
+$vocab["system"]             = "System";
+$vocab["please_contact"]     = "Kontakt %s for spørgsmål der ikke er besvaret her.";
+
+// Entry types
+$vocab["type.I"]             = "Internt";
+$vocab["type.E"]             = "Eksternt";
+
+// Equipment terminology for keys missing from this upstream translation.
+$vocab["area"] = "Udstyrstype";
+$vocab["area_does_not_exist"] = "Udstyrstype findes ikke:";
+$vocab["area_room"] = "Udstyrstype – Udstyrsenhed";
+$vocab["area_room_create"] = "Opret udstyrsenheder efter behov";
+$vocab["area_room_delimiter_note"] = "Skilletegn mellem udstyrstype og udstyrsenhed i LOCATION. Uden skilletegn søges efter en entydig udstyrsenhed med samme navn som LOCATION.";
+$vocab["area_room_order_note"] = "Rækkefølgen af udstyrstypens og udstyrsenhedens navne i LOCATION";
+$vocab["area_room_settings"] = "Udstyrstyper og udstyrsenheder";
+$vocab["could_not_create_area"] = "Udstyrstypen kunne ikke oprettes";
+$vocab["could_not_create_room"] = "Udstyrsenheden kunne ikke oprettes";
+$vocab["could_not_find_room"] = "Udstyrsenheden kunne ikke findes";
+$vocab["creating_new_area"] = "Opretter udstyrstype:";
+$vocab["creating_new_room"] = "Opretter udstyrsenhed:";
+$vocab["default_room"] = "Standardudstyrsenhed";
+$vocab["default_room_note"] = "Udstyrsenhed, der bruges, hvis egenskaben LOCATION ikke er angivet";
+$vocab["default_type"] = "Standardreservationstype";
+$vocab["disabled_area_note"] = "Deaktivering af denne udstyrstype forhindrer nye reservationer. Eksisterende reservationer er stadig synlige i søgninger og rapporter.";
+$vocab["disabled_room_note"] = "Deaktivering af denne udstyrsenhed forhindrer nye reservationer. Eksisterende reservationer er stadig synlige i søgninger og rapporter.";
+$vocab["edit_entry_nonexistent_room"] = "Denne udstyrsenhed findes ikke længere. Åbn kalenderen for at vælge en anden.";
+$vocab["event_created_from_periods"] = "Begivenheden blev eksporteret fra en udstyrstype, der bruger perioder.";
+$vocab["ignore_location"] = "Brug standardudstyrsenheden i stedet for LOCATION";
+$vocab["invalid_area"] = "Ugyldig udstyrstype.";
+$vocab["invalid_area_name"] = "Dette navn på en udstyrstype er allerede i brug.";
+$vocab["invalid_room"] = "Ugyldig udstyrsenhed.";
+$vocab["invalid_room_name"] = "Dette udstyrsnavn er allerede i brug inden for denne udstyrstype.";
+$vocab["invalid_types"] = "Ikke-tilladte reservationstyper";
+$vocab["invalid_types_note"] = "Disse reservationstyper er ikke tilladt for denne udstyrsenhed.";
+$vocab["max_per_day_area"] = "Maksimalt antal reservationer pr. dag pr. bruger for denne udstyrstype:";
+$vocab["max_per_future_area"] = "Maksimalt antal reservationer i fremtiden pr. bruger for denne udstyrstype:";
+$vocab["max_per_month_area"] = "Maksimalt antal reservationer pr. måned pr. bruger for denne udstyrstype:";
+$vocab["max_per_week_area"] = "Maksimalt antal reservationer pr. uge pr. bruger for denne udstyrstype:";
+$vocab["max_per_year_area"] = "Maksimalt antal reservationer pr. år pr. bruger for denne udstyrstype:";
+$vocab["max_secs_per_day_area"] = "Maksimal samlet varighed af reservationer pr. dag pr. bruger for denne udstyrstype: %1\$s %2\$s";
+$vocab["max_secs_per_future_area"] = "Maksimal samlet varighed af reservationer i fremtiden pr. bruger for denne udstyrstype: %1\$s %2\$s";
+$vocab["max_secs_per_month_area"] = "Maksimal samlet varighed af reservationer pr. måned pr. bruger for denne udstyrstype: %1\$s %2\$s";
+$vocab["max_secs_per_week_area"] = "Maksimal samlet varighed af reservationer pr. uge pr. bruger for denne udstyrstype: %1\$s %2\$s";
+$vocab["max_secs_per_year_area"] = "Maksimal samlet varighed af reservationer pr. år pr. bruger for denne udstyrstype: %1\$s %2\$s";
+$vocab["mrbs_abbr"] = "EBS";
+$vocab["multiroom_not_allowed"] = "Du må ikke reservere flere udstyrsenheder på én gang.";
+$vocab["no_rooms_selected"] = "Du skal vælge en udstyrsenhed.";
+$vocab["no_simultaneous_bookings"] = "Du kan højst reservere %s udstyrsenheder på samme tid";
+$vocab["no_users_create_first_admin"] = "Opret en administrator, log ind, og tilføj brugere, udstyrstyper og udstyrsenheder.";
+$vocab["noareas_enabled"] = "Der er ingen aktiverede udstyrstyper.";
+$vocab["norooms_enabled"] = "Der er ingen aktiverede udstyrsenheder.";
+$vocab["room_area"] = "Udstyrsenhed – Udstyrstype";
+$vocab["room_does_not_exist"] = "Udstyrsenhed findes ikke:";
+$vocab["room_does_not_exist_no_area"] = "Den manglende udstyrsenhed kan ikke tilføjes: ingen udstyrstype angivet";
+$vocab["room_not_unique_no_area"] = "Udstyrsnavnet er ikke entydigt: angiv udstyrstypen.";
+$vocab["select_area"] = "Vælg udstyrstype";
+$vocab["select_room"] = "Vælg udstyrsenhed";
+$vocab["sort_key_note"] = "Sorteringsnøgle for udstyr";
+$vocab["sort_room"] = "Udstyrsenhed";
+$vocab["this_area"] = "Denne udstyrstype";
+$vocab["viewroom"] = "Vis udstyrsenhed";
