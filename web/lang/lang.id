@@ -280,7 +280,7 @@ $vocab["search_for"]         = "Cari untuk";
 $vocab["from"]               = "Dari";
 
 // Used in report.php
-$vocab["report_on"]             = "Laporan Rapat";
+$vocab["report_on"]             = "Laporan pemesanan";
 $vocab["report_start"]          = "Tanggal awal laporan";
 $vocab["report_end"]            = "Tanggal akhir laporan";
 $vocab["match_area"]            = "Jenis peralatan";

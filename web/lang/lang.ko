@@ -146,7 +146,7 @@ $vocab["search_for"]         = "Search For";
 $vocab["from"]               = "From";
 
 // Used in report.php
-$vocab["report_on"]          = "회의에 관한 보고서 작성";
+$vocab["report_on"]          = "예약 보고서";
 $vocab["report_start"]       = "시작일";
 $vocab["report_end"]         = "종료일";
 $vocab["match_area"]         = "장비 유형";

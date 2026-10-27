@@ -280,7 +280,7 @@ $vocab["search_for"]         = "Hľadať čo";
 $vocab["from"]               = "Od";
 
 // Used in report.php
-$vocab["report_on"]             = "Výpis rezervácií";
+$vocab["report_on"]             = "Prehľad rezervácií";
 $vocab["report_start"]          = "Výpis od";
 $vocab["report_end"]            = "Výpis do";
 $vocab["match_area"]            = "Typ vybavenia";

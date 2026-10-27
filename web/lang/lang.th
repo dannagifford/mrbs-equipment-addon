@@ -253,7 +253,7 @@ $vocab["search_for"]         = "ค้นหาเพื่อ";
 $vocab["from"]               = "จาก";
 
 // Used in report.php
-$vocab["report_on"]             = "รายงานเกี่ยวกับการประชุม";
+$vocab["report_on"]             = "รายงานการจอง";
 $vocab["report_start"]          = "วันเริ่มต้นรายงาน";
 $vocab["report_end"]            = "วันสิ้นสุดรายงาน";
 $vocab["match_area"]            = "ประเภทอุปกรณ์";

@@ -287,7 +287,7 @@ $vocab["search_for"]         = "Cerca per";
 $vocab["from"]               = "Da";
 
 // Used in report.php
-$vocab["report_on"]             = "Report su incontri";
+$vocab["report_on"]             = "Rapporto sulle prenotazioni";
 $vocab["report_start"]          = "Report su data inizio";
 $vocab["report_end"]            = "Report su data fine";
 $vocab["match_area"]            = "Tipo di attrezzatura";

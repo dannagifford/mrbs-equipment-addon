@@ -428,7 +428,7 @@ $vocab["from"]               = "From";
 $vocab["export_as_ics"]      = ".ics";
 
 // Used in report.php
-$vocab["report_on"]             = "Report on Meetings";
+$vocab["report_on"]             = "Report on bookings";
 $vocab["report_start"]          = "Report start date";
 $vocab["report_end"]            = "Report end date";
 $vocab["match_area"]            = "Match equipment type";

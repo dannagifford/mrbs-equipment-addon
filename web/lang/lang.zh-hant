@@ -145,7 +145,7 @@ $vocab["search_for"]         = "搜尋";
 $vocab["from"]               = "From";
 
 // Used in report.php
-$vocab["report_on"]          = "設備報表";
+$vocab["report_on"]          = "預約報表";
 $vocab["report_start"]       = "報表起始日";
 $vocab["report_end"]         = "報表結束日";
 $vocab["match_area"]         = "設備類型";

@@ -152,7 +152,7 @@ $vocab["search_for"]         = "Søg efter";
 $vocab["from"]               = "Fra";
 
 // Used in report.php
-$vocab["report_on"]          = "Rapport";
+$vocab["report_on"]          = "Rapport over reservationer";
 $vocab["report_start"]       = "Start dato";
 $vocab["report_end"]         = "Slut dato";
 $vocab["match_area"]         = "Udstyrstype";

@@ -260,7 +260,7 @@ $vocab["search_for"]         = "Kulcsszó:";
 $vocab["from"]               = "";
 
 // Used in report.php
-$vocab["report_on"]             = "Meetingek riportja";
+$vocab["report_on"]             = "Foglalási jelentés";
 $vocab["report_start"]          = "Riport kezdete";
 $vocab["report_end"]            = "Riport vége";
 $vocab["match_area"]            = "Eszköztípus";

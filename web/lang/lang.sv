@@ -349,7 +349,7 @@ $vocab["search_for"]         = "Sök för";
 $vocab["from"]               = "Från";
 
 // Used in report.php
-$vocab["report_on"]             = "Skapa en rapport";
+$vocab["report_on"]             = "Rapport över bokningar";
 $vocab["report_start"]          = "Startdatum för rapport";
 $vocab["report_end"]            = "Slutdatum för rapport";
 $vocab["match_area"]            = "Utrustningstyp";

@@ -259,7 +259,7 @@ $vocab["search_for"]         = "Anahtar kelime";
 $vocab["from"]               = "den";
 
 // Used in report.php
-$vocab["report_on"]          = "Toplantıların Raporları";
+$vocab["report_on"]          = "Rezervasyon raporu";
 $vocab["report_start"]       = "Rapor Başlama Tarihi";
 $vocab["report_end"]         = "Rapor Bitiş Tarihi";
 $vocab["match_area"]         = "Ekipman türü";

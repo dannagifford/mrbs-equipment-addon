@@ -401,7 +401,7 @@ $vocab["search_for"] = "Cerca";
 $vocab["from"] = "Des de";
 
 // S'utilitza a report.php
-$vocab["report_on"] = "Informe sobre les reunions";
+$vocab["report_on"] = "Informe de reserves";
 $vocab["report_start"] = "Data d'inici de l'informe";
 $vocab["report_end"] = "Data de finalització de l'informe";
 $vocab["match_area"] = "Tipus d'equipament";

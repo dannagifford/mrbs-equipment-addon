@@ -421,7 +421,7 @@ $vocab["from"]               = "Из";
 $vocab["export_as_ics"]      = ".ics";
 
 // Used in report.php
-$vocab["report_on"]             = "Отчет о бронировании";
+$vocab["report_on"]             = "Отчёт о бронированиях";
 $vocab["report_start"]          = "Отчет - дата начала";
 $vocab["report_end"]            = "Отчет - дата завершения";
 $vocab["match_area"]            = "Тип оборудования";

@@ -145,7 +145,7 @@ $vocab["search_for"]         = "Bilaketa aurreratua";
 $vocab["from"]               = "Noiztik";
 
 // Used in report.php
-$vocab["report_on"]          = "Baliabideen erabilpen-txostena:";
+$vocab["report_on"]          = "Erreserben txostena";
 $vocab["report_start"]       = "Hasiera data";
 $vocab["report_end"]         = "Amaiera data";
 $vocab["match_area"]         = "Ekipamendu mota";

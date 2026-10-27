@@ -397,7 +397,7 @@ $vocab["search_for"]         = "Pesquisar por";
 $vocab["from"]               = "De";
 
 // Used in report.php
-$vocab["report_on"]          = "Relatório de Reservas";
+$vocab["report_on"]          = "Relatório de reservas";
 $vocab["report_start"]       = "Data início";
 $vocab["report_end"]         = "Data fim";
 $vocab["match_area"]         = "Tipo de equipamento";

@@ -406,7 +406,7 @@ $vocab["from"]               = "Fra";
 
 // Used in report.php
 $vocab["export_as_ics"]      = ".ics";
-$vocab["report_on"]          = "Rapport:";
+$vocab["report_on"]          = "Rapport over bestillinger";
 $vocab["report_start"]       = "Start dato";
 $vocab["report_end"]         = "Slutt dato";
 $vocab["match_area"]         = "Utstyrstype";

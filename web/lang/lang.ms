@@ -299,7 +299,7 @@ $vocab["search_for"]         = "Carian untuk";
 $vocab["from"]               = "daripada";
 
 // Used in report.php
-$vocab["report_on"]             = "Laporan perbincangan";
+$vocab["report_on"]             = "Laporan tempahan";
 $vocab["report_start"]          = "Tarikh mula laporan";
 $vocab["report_end"]            = "Tarikh akhir laporan";
 $vocab["match_area"]            = "Jenis peralatan";

@@ -391,7 +391,7 @@ $vocab["search_for"]         = "Suche nach";
 $vocab["from"]               = "Von";
 
 // Used in report.php
-$vocab["report_on"]          = "Bericht über Termine";
+$vocab["report_on"]          = "Bericht über Buchungen";
 $vocab["report_start"]       = "Berichtszeitraum Startdatum";
 $vocab["report_end"]         = "Endedatum";
 $vocab["match_area"]         = "Gerätetyp";

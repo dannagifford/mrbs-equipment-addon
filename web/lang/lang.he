@@ -253,7 +253,7 @@ $vocab["search_for"]         = "חפש את";
 $vocab["from"]               = "מתאריך";
 
 // Used in report.php
-$vocab["report_on"]             = "דוח פגישות";
+$vocab["report_on"]             = "דוח הזמנות";
 $vocab["report_start"]          = "תאריך תחילת דוח";
 $vocab["report_end"]            = "תאריך סוף דוח";
 $vocab["match_area"]            = "סוג ציוד";

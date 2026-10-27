@@ -286,7 +286,7 @@ $vocab["search_for"]         = "Cautare pentru";
 $vocab["from"]               = "De la";
 
 // Used in report.php
-$vocab["report_on"]             = "Raport rezervari";
+$vocab["report_on"]             = "Raport de rezervări";
 $vocab["report_start"]          = "Raport data de inceput";
 $vocab["report_end"]            = "Raport data de sfarsit";
 $vocab["match_area"]            = "Tip de echipament";

@@ -266,7 +266,7 @@ $vocab["search_for"]         = "検索語";
 $vocab["from"]               = "始点";
 
 // Used in report.php
-$vocab["report_on"]             = "会合の報告";
+$vocab["report_on"]             = "予約レポート";
 $vocab["report_start"]          = "報告開始日";
 $vocab["report_end"]            = "報告終了日";
 $vocab["match_area"]            = "機器種別";

@@ -146,7 +146,7 @@ $vocab["search_for"]         = "Αναζήτηση για";
 $vocab["from"]               = "Από";
 
 // Used in report.php
-$vocab["report_on"]          = "Αναφορά για Συναντήσεις";
+$vocab["report_on"]          = "Αναφορά κρατήσεων";
 $vocab["report_start"]       = "Ημερομηνία έναρξης αναφοράς";
 $vocab["report_end"]         = "Ημερομηνία λήξης αναφοράς";
 $vocab["match_area"]         = "Τύπος εξοπλισμού";

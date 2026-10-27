@@ -354,7 +354,7 @@ $vocab["search_for"]         = "搜索";
 $vocab["from"]               = "从";
 
 // Used in report.php
-$vocab["report_on"]             = "设备报表";
+$vocab["report_on"]             = "预约报表";
 $vocab["report_start"]          = "报表起始日期";
 $vocab["report_end"]            = "报表结束日期";
 $vocab["match_area"]            = "设备类型";
