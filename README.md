@@ -2,8 +2,7 @@
 
 ## Purpose
 
-This project adapts the [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code)
-for booking shared equipment. Areas become equipment types, and rooms become
+This project adapts the [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code) to create a shared equipment booking system, primarily aimed at laboratory equipment. Areas become equipment types, and rooms become
 individual equipment items, using MRBS's existing calendars, booking rules and
 administration tools. The adaptations are maintained as language-file patches so
 users can continue receiving upstream MRBS updates.
