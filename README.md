@@ -61,11 +61,6 @@ take precedence:
 require_once __DIR__ . '/equipment-language.inc.php';
 ```
 
-If you installed the earlier override edition, remove its
-`require ... '/equipment.inc.php'` line. Remove any local vocabulary overrides that
-would replace the new language strings. Retain your database credentials, timezone
-and other installation settings.
-
 Commit the tracked language and help changes on your equipment branch:
 
 ```sh
