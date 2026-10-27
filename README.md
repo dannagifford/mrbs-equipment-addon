@@ -5,10 +5,9 @@ This project adapts the Meeting Room Booking System (MRBS) for booking shared eq
 
 Equipment terminology for [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code), maintained as a patch to its language files.
 
-| MRBS | Equipment booking |
-| --- | --- |
-| Area | Equipment type, e.g. Microscopes |
-| Room | Equipment item, e.g. Microscope 1 |
+MRBS Terminology --> MRBS Equipment Addon Terminology
+Area --> Equipment type, e.g. Autoclaves
+Room -->  Equipment item, e.g. Priorclave Benchtop Autoclave
 
 This add-on directly edits all 33 upstream `web/lang/lang.*` files. It contains
 equipment terminology in English and 32 other language variants, equipment-specific
