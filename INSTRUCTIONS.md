@@ -117,7 +117,7 @@ Keep the `mrbs_` table prefix: it matches the tables created by `tables.my.sql`.
 Add your organisation details at the bottom of the file:
 
 ```php
-$mrbs_company = "Laboratory Equipment Booking";
+$mrbs_company = "Lab Name Equipment Booking";
 $mrbs_admin = "Your administrator name";
 $mrbs_admin_email = "your.email@example.org";
 ```
@@ -157,12 +157,11 @@ and Rooms.
 
 ## 6. Obtain the add-on
 
-Clone this add-on repository into a separate directory. Replace
-`ADDON_REPOSITORY_URL` with this repository's HTTPS clone URL, available under
-GitHub's **Code** button:
+Clone this add-on repository into a separate directory.
 
 ```bash
-git clone ADDON_REPOSITORY_URL "$HOME/src/mrbs-equipment-booking"
+ADDON_REPOSITORY_URL="https://github.com/dannagifford/mrbs-equipment-addon"
+git clone $ADDON_REPOSITORY_URL "$HOME/src/mrbs-equipment-booking"
 ```
 
 Alternatively, extract a downloaded copy of the add-on so its contents are in
