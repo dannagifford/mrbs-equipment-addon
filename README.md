@@ -1,4 +1,7 @@
-# MRBS Equipment Booking — language file edition
+# MRBS Equipment Booking Addon
+
+## Purpose
+This project adapts the Meeting Room Booking System (MRBS) for booking shared equipment. Areas become equipment types, and rooms become individual equipment items, using MRBS’s existing calendars, booking rules and administration tools. The adaptations are maintained as language-file patches so users can continue receiving upstream MRBS updates.
 
 Equipment terminology for [Meeting Room Booking System (MRBS)](https://github.com/meeting-room-booking-system/mrbs-code), maintained as a patch to its language files.
 
@@ -7,7 +10,7 @@ Equipment terminology for [Meeting Room Booking System (MRBS)](https://github.co
 | Area | Equipment type, e.g. Microscopes |
 | Room | Equipment item, e.g. Microscope 1 |
 
-This edition directly edits all 33 upstream `web/lang/lang.*` files. It contains
+This add-on directly edits all 33 upstream `web/lang/lang.*` files. It contains
 equipment terminology in English and 32 other language variants, equipment-specific
 help and a small configuration include.
 The include enables browser language selection and chooses the equipment help file;
