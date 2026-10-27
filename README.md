@@ -73,8 +73,7 @@ import are for new installations only.
 
 ## Compatibility and validation
 
-The supplied language files and patch were prepared against upstream commit
-`3aafab399922a422cdb3a0db5886148b7116499a` on 27 October 2026. This is a development
+The supplied language files and patch were prepared against upstream [MRBS commit `3aafab3`](https://github.com/meeting-room-booking-system/mrbs-code/commit/3aafab399922a422cdb3a0db5886148b7116499a) on 27 October 2026. This is a development
 snapshot. The installation guide selects that commit so the patch matches exactly.
 Compatibility with released MRBS versions has not yet been verified.
 
@@ -92,7 +91,7 @@ booking checks in [INSTRUCTIONS.md](INSTRUCTIONS.md) before deployment.
 ## Languages
 
 The interface follows MRBS's normal browser language selection, with English as
-the fallback. Equipment-related non-English changes are draft translations and
+the fallback. Equipment-related non-English changes are AI-generated draft translations and
 have not been reviewed by fluent speakers. Unrelated interface text retains the
 existing upstream translations. The equipment Help page remains in English.
 
